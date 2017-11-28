@@ -6,11 +6,11 @@ while True:
             if i <= 입력값:
                 spaces = 입력값 - i
                 stars = i
-                print(" " * spaces + "* " * stars)
+                print("  " * spaces + "*  " * stars)
             else:
                 spaces = i - 입력값
                 stars = 2 * 입력값 - i
-                print(" " * spaces + "* " * stars)
+                print("  " * spaces + "*  " * stars)
     elif 입력값 >= x+2:
         print("홀수를 입력하세요.")
 

@@ -1,27 +1,19 @@
-diamond = int(input("diamond: "))
-for i in range(diamond*2):
-     if i<=diamond:
-          spaces = diamond - i
-          stars = i
-          print(" "*spaces + "* "*stars)
-     else:
-          spaces = i - diamond
-          stars = 2*diamond - i
-          print(" "*spaces + "* "*stars)
 
 
+x=0
+while True:
+    입력값=int(input("사용자 입력:"))
+    if 입력값 %2 == 1:
+        for i in 입력값 :
+            if i <= 입력값:
+                spaces = 입력값 - i
+                stars = i
+                print(" " * spaces + "*" * stars)
 
+    elif 입력값 >= x+2:
+        print("홀수를 입력하세요.")
 
-
-
-
-if (visit % 7) == 0 and visit < 22:
-    Ticket=Ticket-1
-    vip=vip-1
-    print("축하합니다. 1주년 이벤트에 당첨되었습니다. 여기 무료 티켓을 발행합니다. 잔여 티켓 d%장" %Ticket)
-
-    if ((visit % 7) == 0 and visit < 22) or ((visit % 3) == 0) and visit < 16:
-         Ticket -= Ticket
-         print("축하합니다. 1주년 이벤트에 당첨되었습니다. 여기 무료 티켓을 발행합니다. 잔여 티켓 d%장" % Ticket)
-         vip -= vip
-         print("축하 합니다. 연간회원권 구매 이벤트에 당첨되셨습니다. 연간 회원 할인 티켓을 발행합니다. 잔여 할인티켓 d%장" % vip)
+    else:
+        입력값 = 0
+        print("마름모 연습프로그램을 이용해 주셔서 감사합니다.")
+        break

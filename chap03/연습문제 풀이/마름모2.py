@@ -1,4 +1,4 @@
- output_msg= "홀수를 입력하세요(0 <- 종료): "
+output_msg= "홀수를 입력하세요(0 <- 종료):"
 blank = " "
 star = "*"
 print("마름모 출력 프로그램 ver1.0")
@@ -14,6 +14,8 @@ while True:
     elif customer_input % 2 == 0:
         print("짝수를 입력하셨습니다. 재입력 부탁드립니다.")
         continue
+    elif customer_input == 1:
+        print('*')
     else:
         star_count = 1
         blank_count = int((customer_input - star_count) / 2)

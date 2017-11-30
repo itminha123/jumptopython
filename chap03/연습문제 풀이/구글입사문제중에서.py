@@ -1,5 +1,5 @@
 
-a= range(1 ,10001)
-for i in a:
-    b = str(i.count(8))
-    print(b)
+
+print(str(list(range(10000))).count('8'))
+
+

@@ -1,5 +1,4 @@
 
-
 def sum(a,b):
     result = a+b
     return result
@@ -9,8 +8,8 @@ while True :
     number = input('두 수를 입력하세요. (종료:프로그램종료):').split()
     if number[0] == '종료' :
         break
-    try:
-        len(number) == 2
+
+    if    len(number) == 2 :
         try:
             a = int(number[0])
             b = int(number[1])
@@ -25,7 +24,7 @@ while True :
                 print('두번째 입력이 %s 입니다.' % number[1])
         else:
             print(sum(a, b))
-    except:
+    else:
         print('두 수를 입력하세요.')
 
 

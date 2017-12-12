@@ -18,7 +18,7 @@ while True:
         elif file_select == 2:
             file_location = input('변경된 파일 경로를 입력하세요:')
             f = open(file_location + '\\poll.txt','a')
-            f.write(name+'  ')
+            f.write('[' + name +'] ')
             f.write(program +'\n')
             f.close()
 

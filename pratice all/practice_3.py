@@ -8,8 +8,6 @@ def multiples(num):
         return False
     # return num
 
-
-
 while True:
     input_number = int(input("양수를 입력하세요(종료-1):"))
     if input_number == -1 :

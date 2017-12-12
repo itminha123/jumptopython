@@ -7,8 +7,8 @@ while True:
     name = input('성함을 입력해주세요:')
     f = open('poll.txt','a')
     f.write(name+'  ')
-    f.close()
-    f = open('poll.txt','a')
+    # f.close()
+    # f = open('poll.txt','a')
     f.write(program +'\n')
     f.close()
 

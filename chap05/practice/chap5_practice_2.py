@@ -5,11 +5,11 @@ while True:
     if program == '종료' :
         break
     name = input('성함을 입력해주세요:')
-    f = open('poll.txt','w')
-    f.write(name)
+    f = open('poll.txt','a')
+    f.write(name+'  ')
     f.close()
     f = open('poll.txt','a')
-    f.write(program)
+    f.write(program +'\n')
     f.close()
 
 

@@ -3,7 +3,7 @@ price = {'유아':'무료', '어린이':10, '성인': 15}
 while 1:
     print("cgv 극장에 오신걸 환영합니다.")
     age = int(input("나이를 입력하세요:\n[종료]=0"))
-    if age < 3 :
+    if age < 3 and age >0 :
         print("무료 입니다.")
         type = '유아'
     elif age >= 3 and age < 15:

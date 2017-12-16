@@ -14,8 +14,9 @@ while True:
         number = int(number)
         if number < 0:
             raise ValueError
-        for i in range(10):
-            result = number * i
-            print('%d*%d=%d' % (number, i, result))
+        for i in range(1,10):
+            print('%d*%d=%d' % (number, i, i*number))
     except ValueError:
-        print('please Enter the positive number')
+        print('Please Enter the positive number')
+    except:
+        print('Please Enter the number')

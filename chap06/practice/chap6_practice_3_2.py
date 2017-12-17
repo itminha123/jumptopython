@@ -10,9 +10,10 @@ morse = {'.- '  :'A' ,'-... ':'B','-.-. ':'C','-.. ' :'D',
 while True:
     text  = input('Enter Morse code.')
     mos   = []
-    for i in text :
+    for i in text.split(' ') :
         if i in morse:
             mos.append(morse[i])
+
     print(''.join(mos))
     # print(mos)
 

@@ -18,5 +18,5 @@ while True:
             print('%d*%d=%d' % (number, i, i*number))
     except ValueError:
         print('Please Enter the positive number')
-    except:
-        print('Please Enter the number')
+    if number == str(number):
+        print('Hey!!!!! Enter the number')

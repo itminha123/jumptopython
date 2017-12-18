@@ -1,20 +1,15 @@
 
-S = "aaabbcccccca"
-count = 1
-blank_list = []
+number = input('뭐가 궁금해?')
 
-for i in range(len(S) - 1):
-    if S[i] == S[i + 1]:
-        count += 1
-    elif S[i] != S[i + 1]:
-        blank_list.append((count, S[i]))
+result = number[0]  # 첫번째 값을 결과에 넣는다
+count  = 0
+for st in number:
+    print(result[-1])
+    if st == result[-1]:
+        count = count + 1
+    else:
+        result = result + str(count) + st
         count = 1
-    if i == len(S) - 2:
-        blank_list.append((count, S[i + 1]))
+result += str(count)
 
-answer = ""
-
-for i in range(len(blank_list)):
-    answer = answer + str(blank_list[i][1]) + str(blank_list[i][0])
-
-print(answer)
+print(result)

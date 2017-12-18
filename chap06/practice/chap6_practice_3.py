@@ -16,5 +16,3 @@ while True:
     print(''.join(mos))
     # print(mos)
 
-
-

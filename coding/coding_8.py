@@ -4,9 +4,10 @@
 # 입력으로 자연수 N을 받고, 출력으로 N 이하의 모든 완전수를 출력하는 코드를 작성하라.
 
 number = int(input('숫자'))
-number_sum = 0
-for i in range(1,number):
-    if number % i == 0 :
-        number_sum += i
-if number_sum == number :
-    print()
+for x in range(1,number):
+    number_sum = 0
+    for i in range(1,x):
+        if x % i == 0 :
+            number_sum += i
+    if number_sum == x :
+        print(x)

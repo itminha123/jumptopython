@@ -9,7 +9,7 @@ result =[]
 while number:
     result.append(number%2)
     number = int(number/2)
-# b=list(map(str,b))
+# result=list(map(str,result))
 result= list(str(i) for i in result)
 result.reverse()
 

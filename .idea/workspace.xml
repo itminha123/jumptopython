@@ -2,151 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap05/practice/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap06/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap06/book/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap06/practice/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/coding/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/pratice all/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/big_data/엑셀불러오기2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/123123.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/123123123.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/Multiples of 3 and 5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/Multiples of X and Y (범위 Z 안에서).py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/Special Sort.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/chap03 연습문제.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/if while for 연습.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/new05.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/게시판 페이지.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/구글입사문제중에서.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/마름모.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/마름모2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/사이냅소프트 면접풀이.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/연습문제01.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/연습문제02.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/연습문제03.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/연습문제04.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/연습문제05.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/연습문제 풀이/탭을 공백문자로 바꾸기.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/111.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/113-02.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/113.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/116.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/117-02.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/117.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/118.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/119-02.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/119.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/120-2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/120-3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/120.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/122.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/124.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/126-02.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/126.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/128.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/129.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/130~133.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/134.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap03/책/135.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/142.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/144 void-return.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/144 void.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/147.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/148.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/149.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/150.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/151.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/152.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/154.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/158.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/159.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/161.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/163.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/164.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/book/167.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/practice/chap04 practice.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/practice/chap04 practice02.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/practice/greet_user.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap04/practice/practice2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/185.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/189.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/198.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/229.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/230.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/echo_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/function_step1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/function_step2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/function_step3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/function_step4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/function_step5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/game/graphic/render.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/game/play/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/game/sound/echo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/mod1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/mod1_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/mod2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/mod2_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/newpath/path_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/render_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/book/run_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/chap5_practice_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/chap5_practice_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/chap5_practice_3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/chap5_practice_4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/chap5_practice_5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/class_practice.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/module_practice.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/practice_test18891208912.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/restaurant_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/restaurant_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/restaurant_3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/restaurant_4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap05/practice/restaurant_5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap06/book/06-6.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap06/practice/13213212313.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap06/practice/chap6_practice_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap06/practice/chap6_practice_1123.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap06/practice/chap6_practice_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap06/practice/chap6_practice_3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chap06/practice/chap6_practice_3_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_10_Even Fibonacci numbers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_11_100까지의 자연수의 합의 제곱과 제곱의 합의 차이.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_12_시저 암호 풀기.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_13_2진법으로 자연수 나타내기.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_14_palindrome.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_15_넥슨 입사문제 중에서.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_16_리스트 회전.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_17_3n+1 Problem.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/co_18_파일찾기.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_6.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_7.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_8.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coding/coding_9.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기함수.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chap05/book/game/__init__.py" afterPath="$PROJECT_DIR$/jumptopython/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chap05/book/game/graphic/__init__.py" afterPath="$PROJECT_DIR$/jumptopython/chap05/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chap05/book/game/play/__init__.py" afterPath="$PROJECT_DIR$/jumptopython/chap05/book/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chap05/book/game/sound/__init__.py" afterPath="$PROJECT_DIR$/jumptopython/chap05/book/newpath/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/1231123.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/1231123.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/chap6_practice_4.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/chap6_practice_4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/dd113223.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/dd113223.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/do_it_practice_1.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/do_it_practice_2.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/do_it_practice_3.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_3.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/do_it_practice_4.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/practice_1.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/practice_1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/practice_2.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/practice_2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/practice_3.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/practice_3.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/practice_4.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/practice_4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/practice_5.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/practice_5.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/thombus_practice.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/thombus_practice.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pratice all/오류확인.py" afterPath="$PROJECT_DIR$/jumptopython/pratice all/오류확인.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chap03/책/126-02" afterPath="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기4.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -170,11 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="엑셀불러오기2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="엑셀불러오기2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="294">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="엑셀불러오기함수.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기함수.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="엑셀불러오기3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -195,10 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chap06/practice/practice_1.py" />
-        <option value="$PROJECT_DIR$/chap06/practice/practice_2.py" />
-        <option value="$PROJECT_DIR$/chap06/practice/practice.py" />
-        <option value="$PROJECT_DIR$/chap06/practice/chap6_practice_4.py" />
         <option value="$PROJECT_DIR$/chap06/practice/5448464684656.py" />
         <option value="$PROJECT_DIR$/chap06/practice/chap6_practice3_2.py" />
         <option value="$PROJECT_DIR$/chap06/practice/11321231.py" />
@@ -246,14 +121,18 @@
         <option value="$PROJECT_DIR$/big_data/엑셀불러오기.py" />
         <option value="$PROJECT_DIR$/big_data/엑셀불러오기2.py" />
         <option value="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기2.py" />
+        <option value="$PROJECT_DIR$/Data_Science/big_data/asdadadadas.py" />
+        <option value="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기4.py" />
+        <option value="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기3.py" />
+        <option value="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기함수.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="164" />
-    <option name="y" value="63" />
+    <option name="x" value="49" />
+    <option name="y" value="15" />
     <option name="width" value="1090" />
-    <option name="height" value="908" />
+    <option name="height" value="938" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -298,17 +177,6 @@
             <path>
               <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Science" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Science" type="462c0819:PsiDirectoryNode" />
-              <item name="big_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -318,7 +186,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/chap05/practice" />
   </component>
@@ -348,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.엑셀불러오기2">
+  <component name="RunManager" selected="Python.엑셀불러오기함수">
     <configuration name="엑셀불러오기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -383,71 +251,71 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="bigdata_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="엑셀불러오기함수" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/big_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="D:\python\jumptopython\big_data\엑셀불러오기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기함수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="co_18_파일찾기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="엑셀불러오기3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/big_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding/co_18_파일찾기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="coding_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="asdadadadas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/big_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding/coding_8.py" />
+      <option name="SCRIPT_NAME" value="D:\python\jumptopython\Data_Science\big_data\엑셀불러오기3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.co_18_파일찾기" />
-      <item index="1" class="java.lang.String" itemvalue="Python.coding_8" />
-      <item index="2" class="java.lang.String" itemvalue="Python.bigdata_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.엑셀불러오기" />
-      <item index="4" class="java.lang.String" itemvalue="Python.엑셀불러오기2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.엑셀불러오기" />
+      <item index="1" class="java.lang.String" itemvalue="Python.엑셀불러오기2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.asdadadadas" />
+      <item index="3" class="java.lang.String" itemvalue="Python.엑셀불러오기함수" />
+      <item index="4" class="java.lang.String" itemvalue="Python.엑셀불러오기3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.엑셀불러오기2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.엑셀불러오기" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bigdata_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.coding_8" />
-        <item index="4" class="java.lang.String" itemvalue="Python.co_18_파일찾기" />
+        <item index="0" class="java.lang.String" itemvalue="Python.엑셀불러오기함수" />
+        <item index="1" class="java.lang.String" itemvalue="Python.엑셀불러오기3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.엑셀불러오기2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.asdadadadas" />
+        <item index="4" class="java.lang.String" itemvalue="Python.엑셀불러오기" />
       </list>
     </recent_temporary>
   </component>
@@ -560,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513930659101</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="어렵다">
+      <created>1514339340664</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1514339340664</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -568,7 +443,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20703125" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3775281" sideWeight="0.13046876" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3775281" sideWeight="0.13046876" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33707866" sideWeight="0.4948276" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3775281" sideWeight="0.8695313" order="2" side_tool="false" content_ui="tabs" />
@@ -592,19 +467,19 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29213482" sideWeight="0.5125" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3775281" sideWeight="0.13046876" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33370787" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33707866" sideWeight="0.4948276" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3775281" sideWeight="0.8695313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23359375" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20703125" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31685394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25505617" sideWeight="0.490625" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -667,6 +542,16 @@
           <line>1</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기3.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기3.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -675,7 +560,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="69" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -685,21 +570,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap05/practice/chap5_practice_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap06/practice/chap6_practice_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/practice/11321231.py" />
     <entry file="file://$PROJECT_DIR$/jumptopython/chap05/practice/chap5_practice_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -799,24 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/thombus_practice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/1231123.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -827,24 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/practice_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/practice_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -907,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/coding/co_16_리스트 회전.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jumptopython/coding/co_17_3n+1 Problem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -932,13 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/coding/co_13_2진법으로 자연수 나타내기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1001,6 +829,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/big_data/엑셀불러오기.py" />
     <entry file="file://$PROJECT_DIR$/big_data/엑셀불러오기2.py" />
+    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/practice_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/do_it_practice_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/pratice all/1231123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/coding/co_16_리스트 회전.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/coding/co_13_2진법으로 자연수 나타내기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1009,10 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기2.py">
+    <entry file="file://$PROJECT_DIR$/Data_Science/big_data/엑셀불러오기함수.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="172">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>

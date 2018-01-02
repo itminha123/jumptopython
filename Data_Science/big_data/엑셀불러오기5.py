@@ -24,13 +24,16 @@ def print_row(row_instance, type='int'):
         print(i, end=' ')
     return  row_instance
 
-# def check_type(row_name):
-#     try:
-#         list(map(int,row_name))
-#         return 'int'
-#     except:
-#         list(map(float,row_name))
-#         return 'float'
+def check_type(row_name):
+    result = []
+    for i in range(len(row_name)):
+        try:
+            row_name[i] = int(row_name[i])
+            result.append(row_name[i])
+        except :
+            row_name[i] = float(row_name[i])
+            result.append(row_name[i])
+    print(result)
 
 def get_csv_colinstance(col_name):
     name = list(get_csv_rowinstance("JURISDICTION NAME"))
@@ -68,7 +71,7 @@ def my_max(row_name):
     for j in row_name:
         print(j,end=' ')
     print()
-    a= float(max(row_name))
+    a= max(list(map(float,row_name)))
     print("%g" % a)
     # return row_name
 
@@ -76,7 +79,7 @@ def my_min(row_name):
     for j in row_name:
         print(j,end=' ')
     print()
-    print("%g" % float(min(row_name)))
+    print("%g" % (min(list(map(float,row_name)))))
     # return row_name
 
 def my_deviation(row_name):
@@ -88,7 +91,6 @@ def my_deviation(row_name):
         print(j,end='        ')
         deviation = float(j) - average
         print("%g"%deviation)
-
     # return row_name
 
 def my_variance(row_name):
@@ -123,8 +125,11 @@ def my_standard_deviation(row_name):
     # return row_name
 
 def my_ascendeant(row_name):
-    result = sorted(row_name)
-    print(" ".join(result))
+    result = list(map(float,row_name))
+    result.sort()
+    for i in result:
+        print("%g" % i, end=' ')
+    print()
     # return row_name
 
 def my_descendent(row_name):
@@ -135,40 +140,40 @@ def my_descendent(row_name):
     print()
 
 while True:
-    number = int(input("1.총합 2.평균 3.최대값 4.최소값 5.편차 6.표준편차 7.분산 8.정렬 "
-                       "9.행 10.열 (종료=0)"))
-    if number == 0 :
+    number = input("1.총합 2.평균 3.최대값 4.최소값 5.편차 6.표준편차 7.분산 8.정렬 "
+                       "9.행 10.열 (종료=0)")
+    if number == '0':
         break
 
-    elif number == 1 :
+    elif number == '1' :
         row_name = input("Header Column을 입력하세요.")
         my_sum(get_csv_rowinstance(row_name))
 
-    elif number == 2 :
+    elif number == '2' :
         row_name = input("Header Column을 입력하세요.")
         my_average(get_csv_rowinstance(row_name))
 
-    elif number == 3 :
+    elif number == '3' :
         row_name = input("Header Column을 입력하세요.")
         my_max(get_csv_rowinstance(row_name))
 
-    elif number == 4 :
+    elif number == '4' :
         row_name = input("Header Column을 입력하세요.")
         my_min(get_csv_rowinstance(row_name))
 
-    elif number == 5 :
+    elif number == '5' :
         row_name = input("Header Column을 입력하세요.")
         my_deviation(get_csv_rowinstance(row_name))
 
-    elif number == 6 :
+    elif number == '6' :
         row_name = input("Header Column을 입력하세요.")
         my_standard_deviation(get_csv_rowinstance(row_name))
 
-    elif number == 7 :
+    elif number == '7' :
         row_name = input("Header Column을 입력하세요.")
         my_variance(get_csv_rowinstance(row_name))
 
-    elif number == 8 :
+    elif number == '8' :
         line_sort = input("1.오름차순 2.내림차순")
         if line_sort == '1' :
             row_name = input("Header Column을 입력하세요.")
@@ -176,22 +181,20 @@ while True:
         elif line_sort == '2' :
             row_name = input("Header Column을 입력하세요.")
             my_descendent(get_csv_rowinstance(row_name))
-            # print(get_csv_rowinstance(row_name).sort(reverse=True))
+        else:
+            print_row("똑바로 해라잉")
 
-    elif number == 9:
+    elif number == '9':
         column = input("Header Column을 입력하세요:")
         print("행 데이터는 아래와 같습니다.")
         print_row(get_csv_rowinstance(column))
 
-    elif number == 10:
+    elif number == '10':
         row = input("Access Key를 입력하세요:")
         print("열 데이터는 아래와 같습니다.")
         print_col(get_csv_colinstance(row))
-
-
-
-
-
+    else:
+        print("똑바로 해라잉")
 
 
 

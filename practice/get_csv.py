@@ -65,7 +65,7 @@ def my_variance(row_name):
 
 def my_standard_deviation(row_name):
     standard_deviation = math.sqrt(my_variance(row_name))
-    print(standard_deviation)
+    return standard_deviation
 
 def my_ascendant(row_name):
     return sorted(row_name)
@@ -74,6 +74,51 @@ def my_decendant(row_name):
     result= row_name
     result.sort(reverse=True)
     return result
+
+
+
+while True:
+    get_csv= input("1.열 2.행 3.총합 4.평균 5.최대값 6.최소값 7.편차 8.표준편차 9.분산 "
+                   "10.오름차순 11.내림차순 (종료=0)")
+    head_row = input("Header Column을 입력하세요:")
+    if get_csv or head_row == '0':
+        break
+    elif get_csv =='1':
+        print_row(get_csv_colimninstance(head_row))
+    elif get_csv =='2':
+        print_row(get_csv_rowinstance(head_row))
+    elif get_csv =='3':
+        print_row(get_csv_rowinstance(head_row))
+        print("총합:",my_sum(my_check(get_csv_rowinstance(head_row))))
+    elif get_csv == '4':
+        print_row(get_csv_rowinstance(head_row))
+        print("평균:",my_average(my_check(get_csv_rowinstance(head_row))))
+    elif get_csv == '5':
+        print_row(get_csv_rowinstance(head_row))
+        print("최대값:",my_max(head_row))
+    elif get_csv == '6':
+        print_row(get_csv_rowinstance(head_row))
+        print("최소값:",my_min(head_row))
+    elif get_csv == '7':
+        print("편차")
+        my_deviation(my_check(get_csv_rowinstance(head_row)))
+    elif get_csv == '8':
+        print_row(get_csv_rowinstance(head_row))
+        print("표준편차:",my_standard_deviation(my_check(get_csv_rowinstance(head_row))))
+    elif get_csv == '9':
+        print_row(get_csv_rowinstance(head_row))
+        print("분산:",my_variance(my_check(get_csv_rowinstance(head_row))))
+    elif get_csv == '10':
+        print("오름차순")
+        print_row(my_ascendant(my_check(get_csv_rowinstance(head_row))))
+    elif get_csv =='11':
+        print("내림차순")
+        print_row(my_decendant(my_check(get_csv_rowinstance(head_row))))
+    else:
+        print("똑바로 해라잉")
+
+
+
 
 
 # print_row(get_csv_rowinstance("COUNT FEMALE"))
@@ -89,7 +134,7 @@ def my_decendant(row_name):
 #     print()
 
 # my_standard_deviation(my_check(get_csv_rowinstance("COUNT FEMALE")))
-
+#
 # print_row(my_ascendant(my_check(get_csv_rowinstance("COUNT FEMALE"))))
-
+#
 # print_row(my_decendant(my_check(get_csv_rowinstance("PERCENT FEMALE"))))

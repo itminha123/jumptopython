@@ -12,7 +12,6 @@ def get_csv_rowinstance(row_name):
     # print(row_instance)
     return row_instance
 
-
 def get_csv_colimninstance(col_name):
     for column in data[1:]:
         if column[0] == col_name:
@@ -52,7 +51,7 @@ def my_min(row_name):
 
 def my_deviation(row_name):
     for i in row_name:
-        print(i,end='\t\t')
+        print("%4g" % i,end='\t\t')
         deviation= i - my_average(row_name)
         print(deviation)
 
@@ -75,17 +74,17 @@ def my_decendant(row_name):
     result.sort(reverse=True)
     return result
 
-
-
 while True:
     get_csv= input("1.열 2.행 3.총합 4.평균 5.최대값 6.최소값 7.편차 8.표준편차 9.분산 "
                    "10.오름차순 11.내림차순 (종료=0)")
-    head_row = input("Header Column을 입력하세요:")
-    if get_csv or head_row == '0':
+    if get_csv == '0':
         break
     elif get_csv =='1':
-        print_row(get_csv_colimninstance(head_row))
-    elif get_csv =='2':
+        primary_key=input("Primary Key값을 입력해주세요:")
+        print_row(get_csv_colimninstance(primary_key))
+        continue
+    head_row = input("Header Column을 입력하세요:")
+    if get_csv =='2':
         print_row(get_csv_rowinstance(head_row))
     elif get_csv =='3':
         print_row(get_csv_rowinstance(head_row))

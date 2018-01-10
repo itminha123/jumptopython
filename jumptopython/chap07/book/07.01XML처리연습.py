@@ -24,7 +24,7 @@ subject.text = "Why python?"
 blog.append(subject)
 
 author = Element("author")
-author.text = "Eric"
+author.text = "Eric\n  "
 blog.append(author)
 
 SubElement(author, "age").text = "58"

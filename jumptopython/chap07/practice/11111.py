@@ -46,12 +46,12 @@ try :
             dir_index = dir_index+1
         if file_index % record_limit == 1 :
             make_dir(dir_index)
-
-        file_index = file_index
         make_nene(dir_index, file_index)
-        file_index = file_index
+        n= 0
+        for i in range(100, len(nene_table), 100):
+            nene_table[n:i].to_csv()
+
         file_index += 1
-        file_index = file_index
     with open(dir_name + dir_delimiter + "nene_index.txt", 'w') as file :
         file.write(str(file_index))
 except FileNotFoundError :
@@ -60,3 +60,4 @@ except FileNotFoundError :
     make_dir(1)
     make_nene(1, 1)
 print("End")
+

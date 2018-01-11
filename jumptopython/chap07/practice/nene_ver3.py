@@ -6,21 +6,33 @@ from pandas import DataFrame
 import xml.etree.ElementTree as ET
 
 result = []
-dir_name = "V2_BigData"
+dir_name = "V3_BigData"
 dir_delimiter = "\\"
 nene_dir = "Nene_Data"
 nene_file = "nene"
 csv = ".csv"
 record_limit = 3
-
+nene_time = time.strftime("%Y_%B_%A_%H_%M_%S",time.localtime(time.time()))
+# print(nene_time)
 def make_dir(index) :
     os.mkdir(dir_name + dir_delimiter + nene_dir+str(index))
     return None
 
 def make_nene(dir_index, file_index) :
-    destination_csv = dir_name + dir_delimiter + nene_dir + str(dir_index) + dir_delimiter + nene_file + str(file_index) + csv;
+    destination_csv = dir_name + dir_delimiter + nene_dir + str(dir_index) + dir_delimiter + nene_file + str(file_index) + csv
     nene_table.to_csv(destination_csv,encoding="cp949", mode='w', index=True)
     return None
+
+def make_time(dir_index):
+    # try:
+    destination_csv = dir_name + dir_delimiter + nene_dir + str(dir_index) + dir_delimiter + nene_file + str(nene_time
+        ) + csv
+    nene_table.to_csv(destination_csv, encoding="cp949", mode='w', index=True)
+    # except Exception as E:
+    #     print(E)
+
+    return None
+
 
 response = urllib.request.urlopen('http://nenechicken.com/subpage/where_list.asp?target_step2=%s&proc_type=step1&target_step1=%s'%(urllib.parse.quote('전체'),urllib.parse.quote('전체')))
 xml = response.read().decode('UTF-8')
@@ -47,16 +59,18 @@ try :
         if file_index % record_limit == 1 :
             make_dir(dir_index)
 
-        file_index = file_index
-        make_nene(dir_index, file_index)
-        file_index = file_index
+        make_time(dir_index)
+        # file_index = file_index
+        # make_nene(dir_index, file_index)
+        # file_index = file_index
         file_index += 1
-        file_index = file_index
+        # file_index = file_index
     with open(dir_name + dir_delimiter + "nene_index.txt", 'w') as file :
         file.write(str(file_index))
 except FileNotFoundError :
     with open(dir_name + dir_delimiter + "nene_index.txt", 'w') as file :
         file.write('2')
     make_dir(1)
-    make_nene(1, 1)
+    make_time(1)
+    # make_nene(1, 1)
 print("End")

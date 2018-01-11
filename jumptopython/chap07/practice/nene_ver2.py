@@ -22,7 +22,7 @@ try:
     count = 1
     number =1
     number2 =2
-    file_list = glob.glob("D:\\python\\jumptopython\\jumptopython\\chap07\\practice\\V1_BigData\\Nene_Data[1]\\nene*")
+    file_list = glob.glob("D:\\python\\jumptopython\\jumptopython\\chap07\\practice\\V1_BigData\\Nene_Data[1]/nene*")
     print(file_list)
     while True:
         if len(file_list) == 3:

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/book/07.04.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/book/07.05.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/book/07.05처갓집.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/book/07.06.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/book/1987.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/practice/11111.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/practice/nene_ver3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap07/practice/nene_ver4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jumptopython/chap07/practice/nene_ver2.py" afterPath="$PROJECT_DIR$/jumptopython/chap07/practice/nene_ver2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jumptopython/chap07/practice/nene_ver_2.py" afterPath="$PROJECT_DIR$/jumptopython/chap07/practice/nene_ver_2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -551,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515572245453</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="어렵다">
+      <created>1515658704712</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1515658704712</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">

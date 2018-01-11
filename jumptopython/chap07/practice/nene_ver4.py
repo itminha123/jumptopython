@@ -65,7 +65,6 @@ try :
             ((dir_name + dir_delimiter + nene_dir + str(file_index) + dir_delimiter + nene_file + str(m) + csv)),
             encoding="cp949", mode='w', index=True)
 
-
         file_index += 1
     with open(dir_name + dir_delimiter + "nene_index.txt", 'w') as file :
         file.write(str(file_index))

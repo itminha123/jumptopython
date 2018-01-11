@@ -2,18 +2,17 @@ import urllib.request
 from  bs4 import  BeautifulSoup
 from pandas import  DataFrame
 
-max_page = 100
+max_page = 10
 result = []
 index = "index"
 for page_idx in range(1,max_page+1):
     Cheogajip_URL = 'http://www.cheogajip.co.kr/establish02_02.html?page=%s&search=&keyword='%str(page_idx)
-    print(Cheogajip_URL)
-
+    # print(Cheogajip_URL)
     response = urllib.request.urlopen(Cheogajip_URL)
     soupData = BeautifulSoup(response.read().decode('CP949'),'html.parser')
 
     store_trs = soupData.find_all('tr',attrs={'align':'center','bgcolor':'#FFFFFF'})
-    print("End")
+    # print("End")
     if(store_trs):
         for store_tr in store_trs:
             tr_tag = list(store_tr.strings)

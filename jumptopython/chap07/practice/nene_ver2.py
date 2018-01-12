@@ -47,11 +47,11 @@ try :
         if file_index % record_limit == 1 :
             make_dir(dir_index)
 
-        file_index = file_index
+        # file_index = file_index
         make_nene(dir_index, file_index)
-        file_index = file_index
+        # file_index = file_index
         file_index += 1
-        file_index = file_index
+        # file_index = file_index
     with open(dir_name + dir_delimiter + "nene_index.txt", 'w') as file :
         file.write(str(file_index))
 except FileNotFoundError :

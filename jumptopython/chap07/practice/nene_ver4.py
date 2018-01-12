@@ -58,7 +58,6 @@ try :
             nene_table[n:i].to_csv(
                 (dir_name + dir_delimiter + nene_dir + str(file_index) + dir_delimiter + nene_file + str(m) + csv),
                 encoding="cp949", mode='w', index=True)
-
             n = int(i)
             m += 1
         nene_table[i:].to_csv(

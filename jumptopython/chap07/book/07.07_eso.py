@@ -25,6 +25,9 @@ print(store_add)
 print(store_tell)
 
 
+for i in store_add:
+    i.sprit
+
 deagu= []
 for i in result:
     if i[1][0] == '대':
@@ -39,21 +42,21 @@ busan = []
 chung_buk = []
 jeon_buk = []
 ulsan = []
-for i in result:
-    if '서울' in i[1]:
-        seoul.append(i)
-    elif '경북' in i[1]:
-        gyeong_buk.append(i)
-    elif '경기' in i[1]:
-        gyeong_gi.append(i)
-    elif '부산' in i[1]:
-        busan.append(i)
-    elif '충북' and i[1][1] == '북':
-        chung_buk.append(i)
-    elif i[1][0] == '전' and i[1][1] == '북':
-        jeon_buk.append(i)
-    elif i[1][0] == '울' :
-        ulsan.append(i)
-print(seoul)
-total = (len(gyeong_gi)+len(gyeong_buk)+len(seoul)+len(busan)+len(chung_buk)+len(jeon_buk)+len(ulsan)+len(deagu))
+# for i in result:
+#     if '서울' in i[1]:
+#         seoul.append(i)
+#     elif '경북' in i[1]:
+#         gyeong_buk.append(i)
+#     elif '경기' in i[1]:
+#         gyeong_gi.append(i)
+#     elif '부산' in i[1]:
+#         busan.append(i)
+#     elif '충북' and i[1][1] == '북':
+#         chung_buk.append(i)
+#     elif i[1][0] == '전' and i[1][1] == '북':
+#         jeon_buk.append(i)
+#     elif i[1][0] == '울' :
+#         ulsan.append(i)
+# print(seoul)
+# total = (len(gyeong_gi)+len(gyeong_buk)+len(seoul)+len(busan)+len(chung_buk)+len(jeon_buk)+len(ulsan)+len(deagu))
 

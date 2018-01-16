@@ -70,13 +70,14 @@ for i in result:
 
 total = (len(gyeong_gi)+len(gyeong_buk)+len(seoul)+len(busan)+len(chung_buk)+len(jeon_buk)+len(ulsan)+len(deagu))
 print("웹 스콜링을 시작합니다.")
-print("지역"+"\t\t"+"|"+"\t"+"지점명"+"\t\t\t\t\t\t"+"|"+"\t"+"주소")
+print("지역"+"\t\t"+"|"+"\t"+"지점명"+"\t\t\t\t"+"|"+"\t"+"주소")
 print('-'*100)
 i=0
 while i < total:
     print((result[i][1][0]+result[i][1][1]),end="\t\t")
-    print("| %-20s" % result[i][0],end="\t\t")
+    print("| %-12s" % result[i][0],end="\t\t")
     print("| %s" % result[i][1])
+
     i += 1
 print()
 print("검색된 레코드수:%s" %str(total))
@@ -92,7 +93,9 @@ for i in range(len(area)):
     percent.append((area_count[i]/total)*100)
     final_result.append([area[i]]+[area_count[i]]+[percent[i]])
     print("%s\t\t|\t%4s  \t|\t%s" % ((area[i],str(area_count[i]),str(percent[i]))))
-
 # print(final_result)
+
+final_result = sorted(final_result, key=lambda final_list:final_list[1], reverse=True )
 # eso_table = DataFrame(final_result , columns=("지역", "지점수", "점유율"))
 # eso_table.to_csv("eso2.csv", encoding='cp949', mode='w', index=False)
+

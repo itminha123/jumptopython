@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cap03.iml" afterPath="$PROJECT_DIR$/.idea/cap03.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap08/08.02.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jumptopython/chap08/08.0202.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jumptopython/chap07/book/07.07_eso.py" afterPath="$PROJECT_DIR$/jumptopython/chap07/book/07.07_eso.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jumptopython/chap07/book/07.07_이웃집소녀떡볶이.py" afterPath="$PROJECT_DIR$/jumptopython/chap07/book/07.07_이웃집소녀떡볶이.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,82 +18,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="07.05_cheogajip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.05_cheogajip.py">
+      <file leaf-file-name="08.01.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_csv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/get_csv.py">
+      <file leaf-file-name="06_pickle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jumptopython/chap06/book/06_pickle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2898">
-              <caret line="138" column="29" lean-forward="false" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="사이냅소프트 면접풀이.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jumptopython/chap03/연습문제 풀이/사이냅소프트 면접풀이.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07.07_eso.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.07_eso.py">
+      <file leaf-file-name="08.02.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ebiga_store_ver3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/ebiga_store_ver3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07.06_naver_movie.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.06_naver_movie.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07.07_이웃집소녀떡볶이.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="07.07_이웃집소녀떡볶이.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.07_이웃집소녀떡볶이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
+            <state relative-caret-position="-294">
               <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08.0202.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.0202.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/coding/co_13_2진법으로 자연수 나타내기.py" />
-        <option value="$PROJECT_DIR$/coding/coding_7.py" />
         <option value="$PROJECT_DIR$/coding/co_15_넥슨 입사문제 중에서.py" />
         <option value="$PROJECT_DIR$/coding/co_10_Even Fibonacci numbers.py" />
         <option value="$PROJECT_DIR$/coding/coding_16.py" />
@@ -167,14 +135,15 @@
         <option value="$USER_HOME$/Downloads/tonyburger2.py" />
         <option value="$PROJECT_DIR$/jumptopython/chap07/book/07.07_이웃집소녀떡볶이.py" />
         <option value="$PROJECT_DIR$/jumptopython/chap07/book/07.07_eso.py" />
+        <option value="$PROJECT_DIR$/jumptopython/chap08/08.0202.py" />
+        <option value="$PROJECT_DIR$/jumptopython/chap08/08.02.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="293" />
     <option name="width" value="1090" />
-    <option name="height" value="912" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -207,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,19 +183,52 @@
               <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="chap07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="chap07" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="chap08" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/chap05/practice" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="cap03" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="cap03" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -255,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07.07_eso">
+  <component name="RunManager" selected="Python.08.02">
     <configuration name="07.05_cheogajip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,7 +308,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="08.01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="08.02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -319,7 +320,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jumptopython/chap08/08.01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jumptopython/chap08/08.02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,23 +344,26 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.07.07_이웃집소녀떡볶이" />
-      <item index="1" class="java.lang.String" itemvalue="Python.08.01" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tonyburger2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.07.07_eso" />
-      <item index="4" class="java.lang.String" itemvalue="Python.07.05_cheogajip" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tonyburger2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.07.07_eso" />
+      <item index="3" class="java.lang.String" itemvalue="Python.07.05_cheogajip" />
+      <item index="4" class="java.lang.String" itemvalue="Python.08.02" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.07.07_eso" />
-        <item index="1" class="java.lang.String" itemvalue="Python.07.07_이웃집소녀떡볶이" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tonyburger2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.07.05_cheogajip" />
-        <item index="4" class="java.lang.String" itemvalue="Python.08.01" />
+        <item index="0" class="java.lang.String" itemvalue="Python.08.02" />
+        <item index="1" class="java.lang.String" itemvalue="Python.07.07_eso" />
+        <item index="2" class="java.lang.String" itemvalue="Python.07.07_이웃집소녀떡볶이" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tonyburger2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.07.05_cheogajip" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\USER\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -572,22 +576,29 @@
       <option name="project" value="LOCAL" />
       <updated>1515741893906</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="어렵다">
+      <created>1516090801682</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1516090801682</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1090" height="912" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3553398" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18553008" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5028653" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31578946" sideWeight="0.87535816" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33707866" sideWeight="0.4948276" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38627186" sideWeight="0.87535816" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35935396" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35935396" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -753,6 +764,11 @@
           <url>file://$PROJECT_DIR$/jumptopython/chap07/book/07.07_이웃집소녀떡볶이.py</url>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jumptopython/chap08/08.02.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -761,7 +777,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="136" />
+      <option name="time" value="140" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -772,14 +788,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/nene_ver4.py" />
-    <entry file="file://$PROJECT_DIR$/jumptopython/coding/co_16_리스트 회전.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jumptopython/coding/co_18_파일찾기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -819,7 +827,6 @@
     <entry file="file://$USER_HOME$/Downloads/기본코드_for__nene치킨시험문제.py" />
     <entry file="file://$PROJECT_DIR$/jumptopython/chap06/__init__.py" />
     <entry file="file://$PROJECT_DIR$/jumptopython/coding/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap06/book/test.txt" />
     <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -859,13 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap06/book/06_pickle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -988,20 +988,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1936096400/builtins.py" />
     <entry file="file://$PROJECT_DIR$/practice/get_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2898">
+        <state relative-caret-position="0">
           <caret line="138" column="29" lean-forward="false" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1040,37 +1033,17 @@
     <entry file="file://$USER_HOME$/Downloads/전수범_Cafe_Bene_ver2-2.py" />
     <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.06_naver_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="0">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/tonyburger2.py">
+    <entry file="file://$USER_HOME$/Downloads/tonyburger2.py" />
+    <entry file="file://$USER_HOME$/Downloads/ebiga_store_ver3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/ebiga_store_ver3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.07_eso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,27 +1051,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.05_cheogajip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="0">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.07_eso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap06/book/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap06/book/06_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.0202.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.07_이웃집소녀떡볶이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
+        <state relative-caret-position="-294">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

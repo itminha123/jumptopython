@@ -3,8 +3,8 @@ result = []
 
 def student_print(i):
     try:
-        print("이름:%s 나이:%s 주소:%s " % (i['이름'], i['나이'], i['주소']))
-        print("수강정보\n" + "과거 수강횟수:%s\n" % (i['수강정보']['과거 수강횟수']))
+        print("ID:%s 이름:%s 나이:%s 주소:%s " % (i['ID'], i['이름'], i['나이'], i['주소']))
+        print("수강정보\n" + "과거 수강횟수:%s" % (i['수강정보']['과거 수강횟수']))
         for j in (i["수강정보"]["현재 수강정보"]):
             print("현재 수강정보\n" + "강사코드:%s 강의명:%s 강사:%s 개강일:%s 종료일:%s "
               % ((j['강의코드']),(j['강의명']),(j['강사']),(j['개강일']),(j['종료일'])))
@@ -12,22 +12,33 @@ def student_print(i):
 
 def student_search(search):
     student_search_input = input(search+":")
+    search_list = []
     for i in result:
-        if student_search_input == i[search]:
+        if student_search_input in i[search]:
+            search_list.append(i)
+    for i in search_list:
+        if len(search_list) == 1:
             student_print(i)
+        elif len(search_list) >= 2:
+            print(i["ID"],i[search])
 
 def student_change(change):
     after = input()
     del i[change]
     i[change] = after
+    json_write()
 
 def student_lecture_change(change,name):
-    after_code = input("변경할 강의의 수강코드:")
-    after = input(name)
+    after_code = input("변경할 강의의 강의코드:")
     for j in i["수강정보"]["현재 수강정보"]:
-        if j == j["강의코드"]:
+        if after_code == j["강의코드"]:
+            after = input(name)
             del j[change]
-            i[change] = after
+            j[change] = after
+            json_write()
+        else:
+            print("강의 코드가 없습니다.다시 입력하세요.")
+
 
 def json_write():
     with open("ITT_student.json", 'w', encoding='utf8') as outfile:
@@ -41,9 +52,15 @@ try:
         json_string = json.dumps(json_object)
         result = json.loads(json_string)
 except:
-    with open("ITT_student.json", 'w', encoding='utf8') as outfile:
-        readable_result = json.dumps(result, indent=4, sort_keys=True, ensure_ascii=False)
-        outfile.write(readable_result)
+    print("파일이 없습니다. \n파일을 생성하겠습니다.")
+    file_route = input("1. 기존 경로에 생성 2. 새로운 경로에 생성")
+    if file_route == '1':
+        json_write()
+    elif file_route == '2':
+        route = input("경로를 입력하세요:")
+        with open(route + "\\ITT_student.json", 'w', encoding='utf8') as outfile:
+            readable_result = json.dumps(result, indent=4, sort_keys=True, ensure_ascii=False)
+            outfile.write(readable_result)
 
 while True:
     lecture = []
@@ -69,10 +86,12 @@ while True:
                         lecture_teacher = input("강사:")
                         lecture_start = input("개강일:")
                         lecture_end = input("종료일:")
-                        lecture.append({"강의코드": lecture_code, "강의명": lecture_name, "강사": lecture_teacher, "개강일": lecture_start, "종료일": lecture_end})
+                        lecture.append({"강의코드": lecture_code, "강의명": lecture_name,
+                                        "강사": lecture_teacher, "개강일": lecture_start, "종료일": lecture_end})
                     elif student_lecture == '2':
                         break
-                student = {"ID": "ITT%03d" % int(file_index), "이름": student_name, "나이": student_age, "주소": student_add,"수강정보": { "과거 수강횟수": lecture_count, "현재 수강정보": lecture}}
+                student = {"ID": "ITT%03d" % int(file_index), "이름": student_name, "나이": student_age,
+                           "주소": student_add,"수강정보": { "과거 수강횟수": lecture_count, "현재 수강정보": lecture}}
                 result.append(student)
                 json_write()
                 file_index += 1
@@ -80,7 +99,7 @@ while True:
                     file.write(str(file_index))
         except FileNotFoundError:
             with open('ITT_student.text', 'w') as file:
-                file.write("2")
+                file.write("1")
 
     elif student_inupt == '2':
         student_value = input("1.전체 학생정보 조회, 2.개인 학생정보 조회")
@@ -89,7 +108,8 @@ while True:
                 student_print(i)
         elif student_value == '2':
             print("검색할 항목을 선택하세요.")
-            search_input = input("1.ID 2.이름 3.나이 4. 주소 5. 과거 수강횟수")
+            search_input = input("1.ID 2.이름 3.나이 4.주소 5. 과거 수강횟수"
+                                 "6.현재수강중인학생")
             if search_input == '1':
                 student_search("ID")
             elif search_input == "2":
@@ -99,7 +119,18 @@ while True:
             elif search_input == "4":
                 student_search("주소")
             elif search_input == '5':
-                student_search("과거 수강횟수")
+                student_search_input = input("과거수강횟수:")
+                search_list = []
+                for i in result:
+                    if student_search_input == i["수강정보"]["과거 수강횟수"]:
+                        search_list.append(i)
+                for i in search_list:
+                    if len(search_list) == 1:
+                        student_print(i)
+                    elif len(search_list) >= 2:
+                        print(i["ID"], i["수강정보"]["과거 수강횟수"])
+            elif search_input == '6':
+                print()
 
     elif student_inupt == '3':
         print("수정 할 학생정보의 ID를 입력하세요:")
@@ -107,27 +138,30 @@ while True:
         for i in result:
             if id_input == i["ID"]:
                 print("수정할 항목을 선택하세요:")
-                search_change = input("1.이름 2.나이. 3.주소 4.과거 수강횟수 5.강의코드 6.")
+                search_change = input("1.이름 2.나이. 3.주소 4.과거 수강횟수 5.강의코드 6.강의명 7.강사 8.개강일 9.종료일")
                 if search_change == '1':
-                    print("이름:")
+                    print("변경 될 이름:")
                     student_change("이름")
-                    json_write()
                 elif search_change == '2':
-                    print("나이:")
+                    print("변경 될 나이:")
                     student_change("나이")
-                    json_write()
                 elif search_change == '3':
-                    print("주소:")
+                    print("변경 될 주소:")
                     student_change("주소")
-                    json_write()
                 elif search_change == '4':
                     i = (i["수강정보"])
                     print("과거 수강횟수")
                     student_change("과거 수강횟수")
-                    json_write()
                 elif search_change == '5':
-                    student_lecture_change("강의코드","강의코드:")
-                    json_write()
+                    student_lecture_change("강의코드","변경 될 강의코드:")
+                elif search_change == '6':
+                    student_lecture_change("강의명","변경 될 강의명:")
+                elif search_change == '7':
+                    student_lecture_change("강사","변경 될 강사:")
+                elif search_change == '8':
+                    student_lecture_change("개강일","변경 될 개강일:")
+                elif search_change == '9':
+                    student_lecture_change("종료일","변경 될 종료일:")
 
     elif student_inupt == '4':
         delete_id = input("ID를 입력하세요:")

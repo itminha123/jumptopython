@@ -100,19 +100,57 @@ result = [
                 }
             ]
         },
-        "이름": "bb",
+        "이름": "김기정",
         "주소": "bb"
     }
 ]
-a = input("입력:")
-b = input("변경:")
-for i in result:
-    if a == i["이름"]:
-        del i["이름"]
-        i["이름"] = b
-        print(i)
-
+# a = input("입력:")
+# b = input("변경:")
+# for i in result:
+#     if a == i["이름"]:
+#         del i["이름"]
+#         i["이름"] = b
+#         print(i)
 
 # for i in (result[4]["수강정보"]["현재 수강정보"]):
 #     if i["강의코드"] == a :
 #         print()
+iii=input("입력")
+aaaaa = []
+for i in result:
+    bbbbb = i["이름"]
+    # for i in range(len(result)):
+    try:
+        if iii in i["나이"]:
+            aaaaa.append(i)
+        # elif iii == i["이름"][0]+i["이름"][1]:
+        #     aaaaa.append(i)
+        # elif iii == i["이름"][0]+i["이름"][1]+bbbbb[2]:
+        #     aaaaa.append(i)
+        # elif iii == bbbbb[0]+bbbbb[1]+bbbbb[2]+bbbbb[3]:
+        #     aaaaa.append(i)
+    except:pass
+for i in aaaaa:
+    if len(aaaaa) == 1:
+        print(i)
+    elif len(aaaaa) >= 2:
+        print(i["ID"])
+
+# print(result[0]["이름"][1])
+
+        # search_index = i[search]
+        # try:
+        #     if student_search_input == search_index[0]:
+        #         search_list.append(i)
+        #     elif student_search_input == search_index[0]+search_index[1]:
+        #         search_list.append(i)
+        #     elif student_search_input == search_index[0]+search_index[1]+search_index[2]:
+        #         search_list.append(i)
+        #     elif student_search_input == search_index[0]+search_index[1]+search_index[2]+search_index[3]:
+        #         search_list.append(i)
+        #     elif student_search_input == search_index[0]+search_index[1]+search_index[2]+search_index[3]+search_index[4]:
+        #         search_list.append(i)
+        #     elif student_search_input == search_index[0]+search_index[1]+search_index[2]+\
+        #             search_index[3]+search_index[4]+search_index[5]:
+        #         search_list.append(i)
+        # except: pass

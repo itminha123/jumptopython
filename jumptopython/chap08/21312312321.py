@@ -102,8 +102,61 @@ result = [
         },
         "이름": "김기정",
         "주소": "bb"
+    },
+    {
+        "ID": "ITT011",
+        "나이": "a",
+        "수강정보": {
+            "과거 수강횟수": "a"
+        },
+        "이름": "a",
+        "주소": "a"
     }
 ]
+# a = input("입력:")
+# search_list = []
+# search_list.append({"강의코드": lecture_code, "강의명": lecture_name,
+#                 "강사": lecture_teacher, "개강일": lecture_start, "종료일": lecture_end})
+lecture_code = input("강의코드:")
+lecture_name = input("강의명")
+lecture_teacher = input("강사:")
+lecture_start = input("개강일:")
+lecture_end = input("종료일:")
+
+for i in result:
+    if "ITT011" == i["ID"]:
+            if "현재 수강정보" in i["수강정보"]:
+                (i["수강정보"]["현재 수강정보"]).append({"강의코드": lecture_code,
+                                              "강의명": lecture_name, "강사": lecture_teacher,
+                                              "개강일": lecture_start, "종료일": lecture_end})
+                print(i)
+            else:
+                i["수강정보"]["현재 수강정보"] = [
+                    {"강의코드": lecture_code, "강의명": lecture_name, "강사": lecture_teacher, "개강일": lecture_start,
+                     "종료일": lecture_end}]
+                print(i)
+
+
+
+
+
+
+
+
+# for i in result:
+#     if 'ITT011' == i["ID"]:
+#         try:
+#             if   "현재 수강정보" in i["수강정보"] :
+#                 print(i["ID"],i["이름"])
+#         except: print("e")
+
+
+
+# print(search_list)
+
+
+
+
 # a = input("입력:")
 # b = input("변경:")
 # for i in result:
@@ -115,26 +168,26 @@ result = [
 # for i in (result[4]["수강정보"]["현재 수강정보"]):
 #     if i["강의코드"] == a :
 #         print()
-iii=input("입력")
-aaaaa = []
-for i in result:
-    bbbbb = i["이름"]
-    # for i in range(len(result)):
-    try:
-        if iii in i["나이"]:
-            aaaaa.append(i)
+# iii=input("입력")
+# aaaaa = []
+# for i in result:
+#     bbbbb = i["이름"]
+#     for i in range(len(result)):
+    # try:
+    #     if iii in i["나이"]:
+    #         aaaaa.append(i)
         # elif iii == i["이름"][0]+i["이름"][1]:
         #     aaaaa.append(i)
         # elif iii == i["이름"][0]+i["이름"][1]+bbbbb[2]:
         #     aaaaa.append(i)
         # elif iii == bbbbb[0]+bbbbb[1]+bbbbb[2]+bbbbb[3]:
         #     aaaaa.append(i)
-    except:pass
-for i in aaaaa:
-    if len(aaaaa) == 1:
-        print(i)
-    elif len(aaaaa) >= 2:
-        print(i["ID"])
+    # except:pass
+# for i in aaaaa:
+#     if len(aaaaa) == 1:
+#         print(i)
+#     elif len(aaaaa) >= 2:
+#         print(i["ID"])
 
 # print(result[0]["이름"][1])
 

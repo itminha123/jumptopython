@@ -117,7 +117,8 @@ result = [
 # search_list = []
 # search_list.append({"강의코드": lecture_code, "강의명": lecture_name,
 #                 "강사": lecture_teacher, "개강일": lecture_start, "종료일": lecture_end})
-lecture_code = input("강의코드:")
+lecture_code = input("강의코드: ")
+
 lecture_name = input("강의명")
 lecture_teacher = input("강사:")
 lecture_start = input("개강일:")

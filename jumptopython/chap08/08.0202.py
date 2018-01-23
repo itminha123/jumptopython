@@ -49,7 +49,7 @@ def student_lecture_change(change,name):
     if "현재 수강정보" in i["수강정보"]:
         print("현재 등록된 강의의 강의코드")
         for j in i["수강정보"]["현재 수강정보"]:
-            print("-%s " % j[change] , end=' ' , )
+            print("- %s " % j[change] , end=' ' , )
         after_code = input("\n변경할 강의의 강의코드: ")
         for j in i["수강정보"]["현재 수강정보"]:
             if after_code == j["강의코드"]:
@@ -69,9 +69,10 @@ def json_write():
 def text_write():
     try:
         with open("ITT_student.text", 'r') as file:
-            file_index = file.readline()
-        with open('ITT_student.text', 'w') as file:
-            file.write(file_index)
+            file.readline()
+            # file_index = file.readline()
+        # with open('ITT_student.text', 'w') as file:
+        #     file.write(file_index)
     except:
         with open('ITT_student.text', 'w') as file:
             file.write('1')

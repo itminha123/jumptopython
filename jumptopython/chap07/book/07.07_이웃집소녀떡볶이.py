@@ -96,6 +96,7 @@ for i in range(len(area)):
 # print(final_result)
 
 final_result = sorted(final_result, key=lambda final_list:final_list[1], reverse=True )
+print(final_result)
 # eso_table = DataFrame(final_result , columns=("지역", "지점수", "점유율"))
 # eso_table.to_csv("eso2.csv", encoding='cp949', mode='w', index=False)
 

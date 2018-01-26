@@ -42,25 +42,28 @@ def getPostData(post,jsonResult):
     pData = pData.strftime("%Y-%m-%d %H:%M:%S")
 
     if "&quot;" in post["title"] or post["description"] or post['org_link'] or post["pData"]:
-        title = post["title"].replace("&quot;","\"")
-        description =  post["description"].replace("&quot;","\"")
-        org_link = post["link"].replace("&quot;","\"")
+        title = title.replace("&quot;","\"")
+        description = description.replace("&quot;","\"")
+        org_link = org_link.replace("&quot;","\"")
     if "&lt;" in post["title"] or post["description"] or post['org_link'] or post["pData"]:
-        title = post["title"].replace("&lt;","<")
-        description =  post["description"].replace("&lt;","<")
-        org_link = post["link"].replace("&lt;","<")
+        title = title.replace("&lt;","<")
+        description =  description.replace("&lt;","<")
+        org_link = org_link.replace("&lt;","<")
     if "&gt;" in post["title"] or post["description"] or post['org_link'] or post["pData"]:
-        title = post["title"].replace("&gt;",">")
-        description =  post["description"].replace("&gt;",">")
-        org_link = post["link"].replace("&gt;",">")
+        title = title.replace("&gt;",">")
+        description = description.replace("&gt;",">")
+        org_link = org_link.replace("&gt;",">")
     if "<b>" in post["title"] or post["description"] or post['org_link'] or post["pData"]:
-        title = post["title"].replace("<b>"," ")
-        description =  post["description"].replace("<b>"," ")
-        org_link = post["link"].replace("<b>"," ")
+        title = title.replace("<b>"," ")
+        description = description.replace("<b>"," ")
+        org_link = org_link.replace("<b>"," ")
     if "</b>" in post["title"] or post["description"] or post['org_link'] or post["pData"]:
-        title = post["title"].replace("</b>","")
-        description =  post["description"].replace("</b>","")
-        org_link = post["link"].replace("</b>","")
+        title = title.replace("</b>","")
+        description = description.replace("</b>","")
+        org_link = org_link.replace("</b>","")
+
+    # org_link = org_link.sprit("/")
+    # if org_link[2]==org_link[2]:
 
     jsonResult.append({'title':title, 'description':description, "org_link":org_link, "pData":pData})
     return
@@ -86,5 +89,16 @@ def main():
         outfile.write(retjson)
     print("%s_naver_%s.json SAVED" %(search_text,sNode))
 
+    # result2 = []
+    # result3 = set(result2)
+    # for i in jsonResult:
+    #     result = i["org_link"].sprit("/")
+    #     result2.append(result[2])
+    # for i in range(len(result3)):
+    #     print(result2.count(result3[i]))
+
+
 if __name__ == '__main__':
     main()
+
+

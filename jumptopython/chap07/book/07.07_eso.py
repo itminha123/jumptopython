@@ -25,8 +25,8 @@ print(store_add)
 print(store_tell)
 
 
-for i in store_add:
-    i.sprit
+# for i in store_add:
+#     i.sprit
 
 deagu= []
 for i in result:

@@ -1,0 +1,102 @@
+[
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "LGT",
+        "fcstDate": 20180129,
+        "fcstTime": 1400,
+        "fcstValue": 0,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "LGT",
+        "fcstDate": 20180129,
+        "fcstTime": 1500,
+        "fcstValue": 0,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "PTY",
+        "fcstDate": 20180129,
+        "fcstTime": 1400,
+        "fcstValue": 0,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "PTY",
+        "fcstDate": 20180129,
+        "fcstTime": 1500,
+        "fcstValue": 0,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "RN1",
+        "fcstDate": 20180129,
+        "fcstTime": 1400,
+        "fcstValue": 0,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "RN1",
+        "fcstDate": 20180129,
+        "fcstTime": 1500,
+        "fcstValue": 0,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "SKY",
+        "fcstDate": 20180129,
+        "fcstTime": 1400,
+        "fcstValue": 1,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "SKY",
+        "fcstDate": 20180129,
+        "fcstTime": 1500,
+        "fcstValue": 1,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "T1H",
+        "fcstDate": 20180129,
+        "fcstTime": 1400,
+        "fcstValue": -1,
+        "nx": 89,
+        "ny": 91
+    },
+    {
+        "baseDate": 20180129,
+        "baseTime": 1330,
+        "category": "T1H",
+        "fcstDate": 20180129,
+        "fcstTime": 1500,
+        "fcstValue": -0.9,
+        "nx": 89,
+        "ny": 91
+    }
+]

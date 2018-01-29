@@ -7,7 +7,7 @@ import json
 # yyyymm = time.strftime("%Y%m%d",time.localtime(time.time()))
 # print(yyyymm)
 
-baseTime = time.strftime("%H%M",time.localtime(time.time()))
+# baseTime = time.strftime("%H%M",time.localtime(time.time()))
 # print(baseTime)
 
 # tt= str(int(time.strftime("%H"))-1)+'45'
@@ -67,4 +67,17 @@ baseTime = time.strftime("%H%M",time.localtime(time.time()))
 #         print("ee")
 #         time.sleep(1)
 
-print(time.strftime("%M%S"))
+# print(time.strftime("%M%S"))
+
+if int(time.strftime("%H") + '45') >= int(time.strftime("%H%M")):
+    # basetime = ("{0:0>2}{1}".format(time.strftime("%H"), "45"))
+    basetime = time.strftime("%H")+'45'
+    print(basetime)
+    print(time.strftime("%H")+'45')
+else:
+    basetime = str(int(time.strftime("%H")) - 1) + '45'
+    print(basetime)
+
+# print()
+# print("{0:0>2}{1}".format(time.strftime("%H"),"45"))
+# print(time.strftime("%H")+'45')

@@ -18,7 +18,7 @@ def get_request_url(url):
     try:
         response = urllib.request.urlopen(req)
         if response.getcode() == 200:
-            print("[%s] Url Request Success" % datetime.datetime.now())
+            print("\n[%s] Url Request Success" % datetime.datetime.now())
             return response.read().decode('utf-8')
     except Exception as e:
         print(e)
@@ -101,9 +101,9 @@ def control_device():
     elif menu_num == 4 :
         g_Door = not g_Door
 
-def get_rain_weather():
+def get_rain_weather(file_name):
     global g_Balcony_Windows
-    with open("20180129_1424_날씨정보2.json", encoding='UTF8') as json_file:
+    with open(file_name, encoding='UTF8') as json_file:
         json_object = json.load(json_file)
         json_string = json.dumps(json_object)
         result = json.loads(json_string)
@@ -120,11 +120,15 @@ def get_rain_weather():
 def update_scheduler():
     global g_Balcony_Windows
     while True:
-        if g_AI_Mode == False:
-            continue
+        if g_AI_Mode == True:
+            if time.strftime("%S") == '30':
+                main()
+                get_rain_weather('%s_%s_날씨정보.json'% (time.strftime("%Y%m%d"),time.strftime("%H%M")))
+                time.sleep(1)
+                print_main_menu()
+                print("메뉴를 선택하세요: ")
         else:
-            time.sleep(5)
-            g_Balcony_Windows = not g_Balcony_Windows
+            continue
 
 t = threading.Thread(target=update_scheduler)
 t.daemon = True
@@ -150,7 +154,7 @@ def smart_mode():
     elif menu_num == 3:
         main()
     elif menu_num == 4:
-        get_rain_weather()
+        get_rain_weather("20180129_1424_날씨정보2.json")
 
 while True:
     print_main_menu()

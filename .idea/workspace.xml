@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/open_api/op_api_03.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jumptopython/chap09/20180129_1353_날씨정보.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jumptopython/chap09/20180129_1424_날씨정보2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jumptopython/chap09/20180129_1545_날씨정보.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jumptopython/chap09/op_api_03.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cap03.iml" afterPath="$PROJECT_DIR$/.idea/cap03.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/123123132.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/123123132.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/123212312312356.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/123212312312356.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/201612_해외방문객_Top10.json" afterPath="$PROJECT_DIR$/Data_Science/open_api/201612_해외방문객_Top10.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/201612_해외방문객정보_.json" afterPath="$PROJECT_DIR$/Data_Science/open_api/201612_해외방문객정보_.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/5456456.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/5456456.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/op_api_01.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/op_api_01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/op_api_02.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/op_api_02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/op_api_02_01.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/op_api_02_01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/op_api_02_0111py" afterPath="$PROJECT_DIR$/Data_Science/open_api/op_api_02_0111py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/op_api_02_02.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/op_api_02_02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/op_api_03_01.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/op_api_03_01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/서울특별시_관광지입장정보_2011_2011.json" afterPath="$PROJECT_DIR$/Data_Science/open_api/서울특별시_관광지입장정보_2011_2011.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/서울특별시_관광지입장정보_2011_2016.json" afterPath="$PROJECT_DIR$/Data_Science/open_api/서울특별시_관광지입장정보_2011_2016.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jumptopython/chap09/중국(112)_해외방문객정보_2011_2016.json" afterPath="$PROJECT_DIR$/Data_Science/open_api/중국(112)_해외방문객정보_2011_2016.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/open_api/123123132.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/123123132.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="op_api_03.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="op_api_03.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Science/open_api/op_api_03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="21">
               <caret line="184" column="39" lean-forward="false" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -49,10 +29,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="123123132.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123123132.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="날씨정보.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Science/open_api/날씨정보.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1428">
+            <state relative-caret-position="588">
               <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
@@ -75,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jumptopython/chap07/practice/nene_ver2.py" />
         <option value="$PROJECT_DIR$/practice/nene_prac.py" />
         <option value="$PROJECT_DIR$/practice/nene_prac4.py" />
         <option value="$PROJECT_DIR$/practice/nene_prac3.py" />
@@ -126,12 +115,12 @@
         <option value="$PROJECT_DIR$/jumptopython/chap09/rain_시뮬레이션.json" />
         <option value="$PROJECT_DIR$/jumptopython/chap09/op_api_03.py" />
         <option value="$PROJECT_DIR$/Data_Science/open_api/op_api_03.py" />
+        <option value="$PROJECT_DIR$/Data_Science/open_api/123123132.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="68" />
     <option name="width" value="1392" />
     <option name="height" value="862" />
   </component>
@@ -166,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +184,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +227,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.op_api_03 (1)">
+  <component name="RunManager" selected="Python.123123132 (1)">
+    <configuration name="123123132 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/open_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cap03" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/open_api/123123132.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="123123132" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,23 +275,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jumptopython/chap09/123212312312356.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="op_api_02_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jumptopython/chap09" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cap03" />
-      <option name="SCRIPT_NAME" value="D:\python\jumptopython\Data_Science\open_api\op_api_02_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,18 +332,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.op_api_03_01" />
-      <item index="1" class="java.lang.String" itemvalue="Python.op_api_02_02" />
-      <item index="2" class="java.lang.String" itemvalue="Python.op_api_03" />
-      <item index="3" class="java.lang.String" itemvalue="Python.123123132" />
-      <item index="4" class="java.lang.String" itemvalue="Python.op_api_03 (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.op_api_03" />
+      <item index="2" class="java.lang.String" itemvalue="Python.123123132" />
+      <item index="3" class="java.lang.String" itemvalue="Python.op_api_03 (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.123123132 (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.op_api_03 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.op_api_03" />
-        <item index="2" class="java.lang.String" itemvalue="Python.123123132" />
-        <item index="3" class="java.lang.String" itemvalue="Python.op_api_03_01" />
-        <item index="4" class="java.lang.String" itemvalue="Python.op_api_02_02" />
+        <item index="0" class="java.lang.String" itemvalue="Python.123123132 (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.op_api_03 (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.op_api_03" />
+        <item index="3" class="java.lang.String" itemvalue="Python.123123132" />
+        <item index="4" class="java.lang.String" itemvalue="Python.op_api_03_01" />
       </list>
     </recent_temporary>
   </component>
@@ -638,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517243031067</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="어렵다">
+      <created>1517300454494</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1517300454494</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -653,37 +649,25 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23925501" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.3717765" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31359354" sideWeight="0.6282235" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04845222" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6994709" sideWeight="0.36819485" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.4948276" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1833811" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4064603" sideWeight="0.6318052" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3526245" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3132275" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6994709" sideWeight="0.36819485" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43492064" sideWeight="0.6318052" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.4948276" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3132275" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -992,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5628">
           <caret line="268" column="24" lean-forward="false" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,55 +1140,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/20180129_1545_날씨정보.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/20180129_1353_날씨정보.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/20180129_1424_날씨정보2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/rain_시뮬레이션.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/시뮬레이션모드.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/20180129_1545_날씨정보.json" />
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/20180129_1353_날씨정보.json" />
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/20180129_1424_날씨정보2.json" />
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/rain_시뮬레이션.json" />
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap09/시뮬레이션모드.json" />
     <entry file="file://$PROJECT_DIR$/Data_Science/open_api/humidity_시뮬레이션.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,17 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123123132.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,13 +1174,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/open_api/날씨정보.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
+        <state relative-caret-position="588">
           <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
@@ -1253,11 +1187,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/open_api/op_api_03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="21">
           <caret line="184" column="39" lean-forward="false" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123123132.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

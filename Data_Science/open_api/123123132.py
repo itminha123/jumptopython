@@ -82,4 +82,12 @@ import json
 # print("{0:0>2}{1}".format(time.strftime("%H"),"45"))
 # print(time.strftime("%H")+'45')
 
+count = 0
+zero = False
+while True:
+    if count != 0 and  zero == False:
+        print("0이 아니야")
+        zero = True
+    count += 1
+
 

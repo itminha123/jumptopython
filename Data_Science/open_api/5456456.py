@@ -17,7 +17,6 @@ def get_request_url(url):
         print("[%s] Error for URL:%s"%(datetime.datetime.now(),url))
         return None
 
-#[CODE 1]
 def getNatVisitor():
     end_point="http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
 

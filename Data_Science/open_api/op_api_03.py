@@ -8,7 +8,7 @@ import threading
 # 장비를 변경한 경우 장비 상태를 출력할것
 # 장비에 맞는 상태 메세지로 변경 할 것
 # 시뮬레이션 모드 일 경우에는 별도의 파일을 생성하여 Overwite할 것
-
+g_AI_speaker = False
 g_Radiator = False
 g_Gas_Valve = False
 g_Balcony_Windows = False
@@ -52,7 +52,7 @@ def getweather(base_date,base_time,nx,ny):
 def get_finedust():
     print()
 
-def main():
+def weather_main():
     jsonresult = []
     basedate = time.strftime("%Y%m%d")
     if int(time.strftime("%H")+'45') <= int(time.strftime("%H%M")):
@@ -181,19 +181,31 @@ def get_simulation_humidity(filename):
                     break
 
 def update_scheduler():
-    global g_Balcony_Windows
+    global g_AI_speaker
     while True:
         if g_AI_Mode == True:
             if time.strftime("%M%S") == '4530':
-                main()
+                weather_main()
                 get_simulation_rain('날씨정보.json')
                 get_simulation_humidity('날씨정보.json')
                 print_main_menu()
                 print("메뉴를 선택하세요: ")
                 time.sleep(1)
             elif time.strftime("%H%M%S") == '080000':
-                main()
-                get_simulation_rain('날씨정보.json')
+                weather_main()
+                global g_Balcony_Windows, g_humidifier, g_dehumidifier
+                with open('날씨정보.json', encoding='UTF8') as json_file:
+                    json_object = json.load(json_file)
+                    json_string = json.dumps(json_object)
+                    result = json.loads(json_string)
+                for i in result:
+                    if "PTY" == i["category"]:
+                        if i["fcstValue"] != 0:
+                            g_AI_speaker = True
+                            print("비가 ")
+
+
+                print("우산을 챙겨가세요.")
 
         else:
             continue
@@ -227,11 +239,11 @@ def smart_mode():
         if g_AI_Mode == True:print("작동")
         else: print("중지")
         if g_AI_Mode == True:
-            main()
+            weather_main()
             get_simulation_rain('날씨정보.json')
             get_simulation_humidity('날씨정보.json')
     elif menu_num == 3:
-        main()
+        weather_main()
         get_simulation_rain('날씨정보.json')
         get_simulation_humidity('날씨정보.json')
 

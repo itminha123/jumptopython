@@ -49,6 +49,8 @@ def getweather(base_date,base_time,nx,ny):
         return None
     else:
         return json.loads(retData)
+def get_finedust():
+    print()
 
 def main():
     jsonresult = []
@@ -182,13 +184,17 @@ def update_scheduler():
     global g_Balcony_Windows
     while True:
         if g_AI_Mode == True:
-            if time.strftime("%S") == '30':
+            if time.strftime("%M%S") == '4530':
                 main()
                 get_simulation_rain('날씨정보.json')
                 get_simulation_humidity('날씨정보.json')
                 print_main_menu()
                 print("메뉴를 선택하세요: ")
                 time.sleep(1)
+            elif time.strftime("%H%M%S") == '080000':
+                main()
+                get_simulation_rain('날씨정보.json')
+
         else:
             continue
 
@@ -220,8 +226,14 @@ def smart_mode():
         print("현재 인공지능 모드: ", end='')
         if g_AI_Mode == True:print("작동")
         else: print("중지")
+        if g_AI_Mode == True:
+            main()
+            get_simulation_rain('날씨정보.json')
+            get_simulation_humidity('날씨정보.json')
     elif menu_num == 3:
         main()
+        get_simulation_rain('날씨정보.json')
+        get_simulation_humidity('날씨정보.json')
 
 def simulation_mode():
     print("\n1. 비오는날 시뮬레이션")
@@ -244,18 +256,19 @@ def simulation_mode():
 
 while True:
     print_main_menu()
-    menu_num = int(input("메뉴를 선택하세요: "))
+    menu_num = input("메뉴를 선택하세요: ")
 
-    if(menu_num == 1):
+    if(menu_num == '1'):
         check_device_status()
-    elif(menu_num == 2):
+    elif(menu_num == '2'):
         control_device()
-    elif(menu_num == 3):
+    elif(menu_num == '3'):
         smart_mode()
-    elif(menu_num== 4):
+    elif(menu_num== '4'):
         simulation_mode()
-    elif(menu_num == 5):
+    elif(menu_num == '5'):
         break
+    else: print("단디 입력해라!")
 
 
 

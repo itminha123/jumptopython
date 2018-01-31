@@ -12,9 +12,11 @@ def update_scheduler():
                 print('ee')
                 time.sleep(1)
                 g_Balcony_Windows = not g_Balcony_Windows
-        else: continue
-
-
+            elif time.strftime("%H%M%S") == '140200':
+                print('aa')
+                time.sleep(1)
+        else:
+            continue
 
 t = threading.Thread(target=update_scheduler)
 t.daemon = True
@@ -36,5 +38,7 @@ while True:
         g_AI_Mode = not g_AI_Mode
         if g_AI_Mode==True: print("작동")
         else: print("정지")
+        if g_AI_Mode == True:
+            print('cc')
     else: break
 

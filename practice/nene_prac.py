@@ -7,6 +7,7 @@ response = urllib.request.urlopen('http://nenechicken.com/subpage/where_list.asp
 html = response.read().decode('UTF-8')
 root = ET.fromstring(html)
 
+
 result = []
 
 for element in root.findall('item'):

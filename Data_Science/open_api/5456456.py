@@ -18,59 +18,33 @@ def get_request_url(url):
         return None
 
 #[CODE 1]
-def getNatVisitor(yyyymm,nat_cd,ed_cd):
-    end_point="http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList"
+def getNatVisitor():
+    end_point="http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
 
-    parameters = "?_type=json&serviceKey="+access_key
-    parameters+="&YM="+yyyymm
-    parameters+="&NAT_CD="+nat_cd
-    parameters+="&ED_CD="+ed_cd
+    parameters = "?_returnType=json&serviceKey="+access_key
+    parameters+="&sidoName="+urllib.request.quote('대구')
+    parameters+="&numOfRows=100"
+    parameters+="&ver=1.3"
 
     url=end_point+parameters
 
     retData = get_request_url(url)
     print(retData)
+    json.loads(retData)
     if(retData == None):
         return None
     else:
         return json.loads(retData)
 
 def main():
-    jsonResult = []
+    jsonresult=[]
+    jsondata = getNatVisitor()
+    for i in jsondata["list"]:
+        jsonresult.append({"datatime":i["dataTime"],"pm25Value":i["pm25Value"],
+                           "pm25Grade":i["pm25Grade"],"stationName":i["stationName"]})
 
-# 중국:112/일본:130/미국:275
-    national_code="112"
-    ed_cd="E"
-
-    nStartYear = 2011
-    nEndYear = 2017
-
-    for year in range(nStartYear, nEndYear):
-        for month in range(1,13):
-            yyyymm="{0}{1:0>2}".format(str(year),str(month))
-            jsonData = getNatVisitor(yyyymm,national_code,ed_cd)
-
-            if(jsonData['response']['header']['resultMsg']=='OK'):
-                krName = jsonData['response']['body']['items']['item']["natKorNm"]
-                krName = krName.replace(' ','')
-                iTotalVisit=jsonData['response']['body']['items']['item']["num"]
-                print('%s_%s:%s'%(krName,yyyymm,iTotalVisit))
-                jsonResult.append({'nat_name':krName,'nat_cd':national_code,'yyyymm':yyyymm,'visit_cnt':iTotalVisit})
-
-    # cnVisit = []
-    # VisitYM = []
-    # index = []
-    #
-    # i=0
-    #
-    # for item in jsonResult:
-    #     index.append(i)
-    #     cnVisit.append(item['visit_cnt'])
-    #     VisitYM.append(item['yyyymm'])
-    #     i=i+1
-
-    with open('%s(%s)_해외방문객정보_%d_%d.json'%(krName,national_code,nStartYear,nEndYear-1),'w',encoding='utf8') as outfile:
-        retJson = json.dumps(jsonResult,indent=4,sort_keys=True,ensure_ascii=False)
+    with open('미세2.json','w',encoding='utf8') as outfile:
+        retJson = json.dumps(jsonresult,indent=4,sort_keys=True,ensure_ascii=False)
         outfile.write(retJson)
 
 if __name__ == '__main__':

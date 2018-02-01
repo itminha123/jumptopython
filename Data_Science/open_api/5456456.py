@@ -35,16 +35,16 @@ def getNatVisitor():
     else:
         return json.loads(retData)
 
-def main():
-    jsonresult=[]
+def finedust_main():
+    # jsonresult=[]
     jsondata = getNatVisitor()
-    for i in jsondata["list"]:
-        jsonresult.append({"datatime":i["dataTime"],"pm25Value":i["pm25Value"],
-                           "pm25Grade":i["pm25Grade"],"stationName":i["stationName"]})
+    # for i in jsondata["list"]:
+    #     jsonresult.append({"datatime":i["dataTime"],"pm25Value":i["pm25Value"],
+    #                        "pm25Grade":i["pm25Grade"],"stationName":i["stationName"]})
 
     with open('미세2.json','w',encoding='utf8') as outfile:
-        retJson = json.dumps(jsonresult,indent=4,sort_keys=True,ensure_ascii=False)
+        retJson = json.dumps(jsondata,indent=4,sort_keys=True,ensure_ascii=False)
         outfile.write(retJson)
 
 if __name__ == '__main__':
-    main()
+    finedust_main()

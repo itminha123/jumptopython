@@ -3,11 +3,8 @@ import datetime
 import json
 import time
 import threading
+import fine_dust
 
-# HK Comment]
-# 장비를 변경한 경우 장비 상태를 출력할것
-# 장비에 맞는 상태 메세지로 변경 할 것
-# 시뮬레이션 모드 일 경우에는 별도의 파일을 생성하여 Overwite할 것
 g_AI_speaker = False
 g_Radiator = False
 g_Gas_Valve = False
@@ -16,7 +13,7 @@ g_Door = False
 g_AI_Mode = False
 g_humidifier = False
 g_dehumidifier = False
-
+g_air_cleaner = False
 
 access_key = "UREVmQGGPyZcH9gz8eKshT%2Ffyo6paHADoJ4G2P1LuuJMY%2FqoBjGdMJ2icmwgclLU1cVM8YLzAz4qrpeKmfEKEg%3D%3D"
 
@@ -33,24 +30,22 @@ def get_request_url(url):
         print("[%s] Error for URL:%s" % (datetime.datetime.now(), url))
         return None
 
-def getweather(i,base_time,nx,ny):
+def get_weather(base_date,base_time,nx,ny):
     end_point = "http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastTimeData"
 
     parameters = "?_type=json&serviceKey=" + access_key
-    parameters += "&base_date=" + i
-    parameters += '&base_time=' + base_time
-    parameters += '&nx=' + nx
-    parameters += '&ny=' + ny
-    parameters += '&numOfRows=100'
+    parameters += "&base_date=" + base_date
+    parameters += "&base_time=" + base_time
+    parameters += "&nx=" + nx
+    parameters += "&ny=" + ny
+    parameters += "&numOfRows=100"
 
     url = end_point + parameters
-    retData = get_request_url(url)
-    if (retData == None):
+    retdata = get_request_url(url)
+    if (retdata == None) :
         return None
     else:
-        return json.loads(retData)
-def get_finedust():
-    print()
+        return json.loads(retdata)
 
 def weather_main():
     jsonresult = []
@@ -59,19 +54,61 @@ def weather_main():
         basetime = time.strftime("%H")+'45'
     else:
         basetime = ("{0:0>2}{1}".format(str(int(time.strftime("%H")) - 1), "45"))
+    nx = '89'
+    ny = '91'
 
-    nx = "89"
-    ny = "91"
-
-    jsondata = getweather(basedate, basetime, nx, ny)
+    jsondata = get_weather(basedate,basetime,nx,ny)
     if (jsondata['response']['header']['resultMsg'] == 'OK'):
         for i in (jsondata['response']['body']['items']['item']):
-            jsonresult.append({'baseDate': i['baseDate'],'baseTime': i['baseTime'],'category': i["category"],
-                               'fcstDate': i['fcstDate'],'fcstTime': i['fcstTime'],
-                               'fcstValue': i['fcstValue'],'nx': i['nx'],'ny': i['ny']})
-    with open('날씨정보.json' , 'w', encoding='utf8') as outfile:
-        retJson = json.dumps(jsonresult, indent=4, sort_keys=True, ensure_ascii=False)
+            jsonresult.append({"baseDate": i["baseDate"],'baseTime': i['baseTime'],'category': i["category"],
+                               'fcstDate': i['fcstDate'],'fcstTime': i['fcstTime'],'fcstValue': i['fcstValue'],
+                               'nx': i['nx'],'ny': i['ny']})
+    with open('날씨정보.json','w',encoding='utf8') as outfile:
+        retjson = json.dumps(jsonresult, indent=4, sort_keys=True, ensure_ascii=False)
+        outfile.write(retjson)
+
+def get_finedust():
+    end_point="http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
+
+    parameters = "?_returnType=json&serviceKey="+access_key
+    parameters+="&sidoName="+urllib.request.quote('대구')
+    parameters+="&numOfRows=100"
+    parameters+="&ver=1.3"
+
+    url=end_point+parameters
+
+    retData = get_request_url(url)
+    # print(retData)
+    json.loads(retData)
+    if(retData == None):
+        return None
+    else:
+        return json.loads(retData)
+
+def finedust_main():
+    jsonresult=[]
+    jsondata = get_finedust()
+    for i in jsondata["list"]:
+        jsonresult.append({"datatime":i["dataTime"],"pm25Value":i["pm25Value"],
+                           "pm25Grade":i["pm25Grade"],"stationName":i["stationName"]})
+
+    with open('미세먼지.json','w',encoding='utf8') as outfile:
+        retJson = json.dumps(jsonresult,indent=4,sort_keys=True,ensure_ascii=False)
         outfile.write(retJson)
+
+def get_simulation_finedust(station_name):
+    with open("미세먼지.json", encoding='UTF8') as jsonfile:
+        json_object = json.load(jsonfile)
+        json_stings = json.dumps(json_object)
+        result = json.loads(json_stings)
+    for i in result:
+        if i["stationName"] == station_name:
+            if i["pm25Grade"] == 3 or  i["pm25Grade"] == 4 :
+                print("미세먼지 농도가 좋지 안습니다.")
+                print("공기청정기를 켜겠습니다.")
+                if g_air_cleaner == False:
+                    g_air_cleaner = True
+                else: print("공기 청정기가 켜져있습니다.")
 
 def print_main_menu():
     print("\n<< 스마트 홈네트워크 ver0.1 >>")
@@ -87,12 +124,14 @@ def check_device(device,name,state1,state2):
     else: print(state2)
 
 def check_device_status():
+    print()
     check_device(g_Radiator, "난방기", '작동', '정지')
     check_device(g_Gas_Valve, "가스밸브", '열림', '닫힘')
     check_device(g_Balcony_Windows, "발코니 윈도우", '열림', '닫힘')
     check_device(g_Door, "출입문", '열림', '닫힘')
     check_device(g_humidifier, '가습기', '작동', '정지')
     check_device(g_dehumidifier, '제습기', '작동', '정지')
+    check_device(g_air_cleaner, '공기청정기', '작동', '정지')
 
 def print_device_menu():
     print("\n상태 변경할 기기를 선택하세요")
@@ -102,31 +141,35 @@ def print_device_menu():
     print("4. 출입문")
     print("5. 가습기")
     print("6. 제습기")
+    print("7. 공기청정기")
 
 def control_device():
-    global g_Radiator, g_Gas_Valve, g_Balcony_Windows, g_Door, g_humidifier, g_dehumidifier
+    global g_Radiator, g_Gas_Valve, g_Balcony_Windows, g_Door, g_humidifier, g_dehumidifier,g_air_cleaner
     check_device_status()
     print_device_menu()
-    menu_num = int(input("번호를 입력하세요: "))
+    menu_num = input("번호를 입력하세요: ")
 
-    if menu_num == 1 :
+    if menu_num == '1':
         g_Radiator = not g_Radiator
-        check_device(g_Radiator, "난방기",'작동','정지')
-    elif menu_num == 2 :
+        check_device(g_Radiator, '난방기', '작동', '정지')
+    elif menu_num == '2':
         g_Gas_Valve = not g_Radiator
         check_device(g_Gas_Valve, "가스밸브",'열림','닫힘')
-    elif menu_num == 3 :
+    elif menu_num == '3' :
         g_Balcony_Windows = not g_Balcony_Windows
         check_device(g_Balcony_Windows, "발코니 윈도우",'열림','닫힘')
-    elif menu_num == 4 :
+    elif menu_num == '4' :
         g_Door = not g_Door
         check_device(g_Door, "출입문",'열림','닫힘')
-    elif menu_num == 5 :
+    elif menu_num == '5' :
         g_humidifier = not g_humidifier
         check_device(g_humidifier,'가습기','작동','정지')
-    elif menu_num == 6 :
+    elif menu_num == '6' :
         g_dehumidifier = not g_dehumidifier
         check_device(g_dehumidifier,'제습기','작동','정지')
+    elif menu_num == '7' :
+        g_air_cleaner = not g_air_cleaner
+        check_device(g_air_cleaner, '공기청정기', '작동', '정지')
 
 def get_simulation_rain(file_name):
     global g_Balcony_Windows, g_humidifier, g_dehumidifier
@@ -191,22 +234,33 @@ def update_scheduler():
                 print_main_menu()
                 print("메뉴를 선택하세요: ")
                 time.sleep(1)
-            elif time.strftime("%H%M%S") == '080000':
+            elif time.strftime("%H%M%S") == '122800':
                 weather_main()
-                global g_Balcony_Windows, g_humidifier, g_dehumidifier
                 with open('날씨정보.json', encoding='UTF8') as json_file:
                     json_object = json.load(json_file)
                     json_string = json.dumps(json_object)
                     result = json.loads(json_string)
+                rain_list = []
+                temperature_list = []
                 for i in result:
                     if "PTY" == i["category"]:
-                        if i["fcstValue"] != 0:
-                            g_AI_speaker = True
-                            print("비가 ")
+                        rain_list.append(i)
+                    elif "T1H" == i["category"]:
+                        temperature_list.append(i)
 
 
-                print("우산을 챙겨가세요.")
-
+                if rain_list[0]["fcstValue"] != 0:
+                    g_AI_speaker = True
+                    print("현재 비가 와요~ \n우산 가져 가세요")
+                    g_AI_speaker = False
+                    print_main_menu()
+                    print("메뉴를 선택하세요: ")
+                elif rain_list[0]["fcstValue"] == 0 and rain_list[-1]["fcstValue"] != 0 :
+                    g_AI_speaker = True
+                    print("비가 올 예정이에요~ \n우산 가져 가세요")
+                    g_AI_speaker = False
+                    print_main_menu()
+                    print("메뉴를 선택하세요: ")
         else:
             continue
 
@@ -227,13 +281,15 @@ def smart_mode():
     print("\n1. 인공지능 모드 조회")
     print("2. 인공지능 모드 상태 변경")
     print("3. 실시간 기상정보 Update")
-    menu_num = int(input("메뉴를 선택하세요: "))
+    print("4. 실시간 미세먼지 정보 update")
+    print("0. 되돌아가기")
+    menu_num = (input("메뉴를 선택하세요: "))
 
-    if menu_num == 1:
+    if menu_num == '1':
         print("현재 인공지능 모드: ", end='')
         if g_AI_Mode == True:print("작동")
         else: print("중지")
-    if menu_num == 2:
+    if menu_num == '2':
         g_AI_Mode = not g_AI_Mode
         print("현재 인공지능 모드: ", end='')
         if g_AI_Mode == True:print("작동")
@@ -242,10 +298,16 @@ def smart_mode():
             weather_main()
             get_simulation_rain('날씨정보.json')
             get_simulation_humidity('날씨정보.json')
-    elif menu_num == 3:
+    elif menu_num == '3':
         weather_main()
         get_simulation_rain('날씨정보.json')
         get_simulation_humidity('날씨정보.json')
+    elif menu_num == '4':
+        finedust_main()
+        get_simulation_finedust("신암동")
+    elif menu_num == '0':
+        pass
+    else:print("단디 입력하이소!")
 
 def simulation_mode():
     print("\n1. 비오는날 시뮬레이션")

@@ -8,19 +8,31 @@ def update_scheduler():
     global g_Balcony_Windows
     while True:
         if g_AI_Mode == True:
-            if time.strftime("%S") == '30':
+            if time.strftime("%S") == '05':
                 print('ee')
                 time.sleep(1)
                 g_Balcony_Windows = not g_Balcony_Windows
-            elif time.strftime("%H%M%S") == '140200':
-                print('aa')
-                time.sleep(1)
-        else:
-            continue
 
+        print('2')
+
+            # elif time.strftime("%H%M%S") == '140200':
+            #     print('aa')
+            #     time.sleep(1)
+        # else:
+        #     continue
+#
 t = threading.Thread(target=update_scheduler)
-t.daemon = True
+
+# t.daemon = True
 t.start()
+if g_AI_Mode== False:
+    t._is_stopped
+if g_AI_Mode ==True:
+
+    print()
+
+
+
 
 while True:
     print("메뉴를 선택하세요")

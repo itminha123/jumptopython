@@ -103,7 +103,7 @@ def get_simulation_finedust(station_name):
         result = json.loads(json_stings)
     for i in result:
         if i["stationName"] == station_name:
-            if i["pm25Grade"] == 3 or  i["pm25Grade"] == 4 :
+            if i["pm25Grade"] == '3' or  i["pm25Grade"] == '4' :
                 print("미세먼지 농도가 좋지 안습니다.")
                 print("공기청정기를 켜겠습니다.")
                 if g_air_cleaner == False:

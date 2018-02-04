@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cap03.iml" afterPath="$PROJECT_DIR$/.idea/cap03.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/open_api/123132156456456.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/123132156456456.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/open_api/123212312312356.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/123212312312356.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/open_api/5456456.py" afterPath="$PROJECT_DIR$/Data_Science/open_api/5456456.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/naver_movie_prac.py" afterPath="$PROJECT_DIR$/practice/naver_movie_prac.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,15 +19,23 @@
     <favorites_list name="jumptopython" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="op_api_03.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/open_api/op_api_03.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="08.01_02_jtbcnews공유수로_정렬하기.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.01_02_jtbcnews공유수로_정렬하기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="123212312312356.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123212312312356.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,18 +43,18 @@
       <file leaf-file-name="123123132.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123123132.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
+            <state relative-caret-position="1722">
               <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="123132156456456.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123132156456456.py">
+      <file leaf-file-name="5456456.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Science/open_api/5456456.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+            <state relative-caret-position="477">
+              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -53,14 +62,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="123212312312356.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123212312312356.py">
+      <file leaf-file-name="naver_movie_prac.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/naver_movie_prac.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            <state relative-caret-position="515">
+              <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="날씨정보.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Science/open_api/날씨정보.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="146" column="24" lean-forward="false" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,19 +146,19 @@
         <option value="$PROJECT_DIR$/Data_Science/open_api/미세2.json" />
         <option value="$PROJECT_DIR$/Data_Science/open_api/날씨정보.json" />
         <option value="$PROJECT_DIR$/Data_Science/open_api/op_api_03.py" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/5456456.py" />
         <option value="$PROJECT_DIR$/Data_Science/open_api/1231231321235665456456.py" />
         <option value="$PROJECT_DIR$/Data_Science/open_api/123132156456456.py" />
-        <option value="$PROJECT_DIR$/practice/naver_movie_prac.py" />
         <option value="$PROJECT_DIR$/Data_Science/open_api/123212312312356.py" />
+        <option value="$PROJECT_DIR$/practice/naver_movie_prac.py" />
+        <option value="$PROJECT_DIR$/Data_Science/open_api/5456456.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1391" />
-    <option name="height" value="761" />
+    <option name="x" value="320" />
+    <option name="y" value="23" />
+    <option name="width" value="1392" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -173,7 +192,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,18 +207,13 @@
             <path>
               <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Science" type="462c0819:PsiDirectoryNode" />
-              <item name="open_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
-              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.123212312312356">
+  <component name="RunManager" selected="Python.5456456">
     <configuration name="1231231321235665456456" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,10 +352,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.123212312312356" />
+        <item index="0" class="java.lang.String" itemvalue="Python.5456456" />
         <item index="1" class="java.lang.String" itemvalue="Python.naver_movie_prac" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1231231321235665456456" />
-        <item index="3" class="java.lang.String" itemvalue="Python.5456456" />
+        <item index="2" class="java.lang.String" itemvalue="Python.123212312312356" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1231231321235665456456" />
         <item index="4" class="java.lang.String" itemvalue="Python.op_api_03 (1)" />
       </list>
     </recent_temporary>
@@ -661,18 +674,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22492836" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22447917" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6990679" sideWeight="0.36819485" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45222074" sideWeight="0.6318052" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.4948276" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24021164" sideWeight="0.6318052" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47510093" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47407407" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -898,6 +911,11 @@
           <line>17</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Science/open_api/5456456.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -906,7 +924,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="196" />
+      <option name="time" value="197" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1085,28 +1103,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.01_02_jtbcnews공유수로_정렬하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/nene_prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/미세2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1764">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/미세2.json" />
     <entry file="file://$PROJECT_DIR$/Data_Science/open_api/op_api_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
@@ -1115,25 +1112,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/미세.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="415" column="19" lean-forward="false" selection-start-line="415" selection-start-column="19" selection-end-line="415" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/미세.json" />
     <entry file="file://$PROJECT_DIR$/Data_Science/open_api/1231231321235665456456.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/날씨정보.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,23 +1141,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/movie.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/naver_movie_prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/movie.csv" />
     <entry file="file://$PROJECT_DIR$/jumptopython/chap07/book/07.07_이웃집소녀떡볶이.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1192,58 +1159,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/5456456.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/op_api_03.py">
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123212312312356.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123123132.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        <state relative-caret-position="1155">
+          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123132156456456.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="754">
           <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123123132.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/op_api_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4193">
+          <caret line="203" column="46" lean-forward="false" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/날씨정보.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="146" column="24" lean-forward="false" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jumptopython/chap08/08.01_02_jtbcnews공유수로_정렬하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/nene_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/naver_movie_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/123212312312356.py">
+    <entry file="file://$PROJECT_DIR$/Data_Science/open_api/5456456.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        <state relative-caret-position="477">
+          <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,7 +5,7 @@ import pprint
 
 html = urllib.request.urlopen('http://movie.naver.com/movie/sdb/rank/rmovie.nhn')
 soup = BeautifulSoup(html,'html.parser')
-# print(soup)
+print(soup)
 # print(soup.prettify())
 
 tags =  soup.findAll('div', attrs={'class':'tit3'})
@@ -56,9 +56,9 @@ for i in range(len(name)):
     result.append([str(i+1)]+name[i]+taste_up_down[i])
 
 print(result)
-movie_table = DataFrame(result,columns=('순위','영화명','변동폭'))
-movie_table.to_csv('movie.csv', encoding="cp949",mode='w',index=False)
-
+# movie_table = DataFrame(result,columns=('순위','영화명','변동폭'))
+# movie_table.to_csv('movie.csv', encoding="cp949",mode='w',index=False)
+#
 
 # 과제
 # 네이버 영화 랭킹 웹페이지를 분석하여 아래 형식으로 csv 파일을 생성하시오

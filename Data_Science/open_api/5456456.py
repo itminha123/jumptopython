@@ -1,6 +1,9 @@
 import urllib.request
 import datetime
 import json
+import  xml.etree.ElementTree as ET
+from  pandas import  DataFrame
+from bs4 import BeautifulSoup
 
 access_key="UREVmQGGPyZcH9gz8eKshT%2Ffyo6paHADoJ4G2P1LuuJMY%2FqoBjGdMJ2icmwgclLU1cVM8YLzAz4qrpeKmfEKEg%3D%3D"
 
@@ -17,7 +20,7 @@ def get_request_url(url):
         print("[%s] Error for URL:%s"%(datetime.datetime.now(),url))
         return None
 
-def getNatVisitor():
+def get_finedust():
     end_point="http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
 
     parameters = "?_returnType=json&serviceKey="+access_key
@@ -37,7 +40,7 @@ def getNatVisitor():
 
 def finedust_main():
     # jsonresult=[]
-    jsondata = getNatVisitor()
+    jsondata = get_finedust()
     # for i in jsondata["list"]:
     #     jsonresult.append({"datatime":i["dataTime"],"pm25Value":i["pm25Value"],
     #                        "pm25Grade":i["pm25Grade"],"stationName":i["stationName"]})
@@ -46,5 +49,18 @@ def finedust_main():
         retJson = json.dumps(jsondata,indent=4,sort_keys=True,ensure_ascii=False)
         outfile.write(retJson)
 
-if __name__ == '__main__':
-    finedust_main()
+def get_car():
+    end_point= 'http://car.daegu.go.kr/openapi-data/service/rest/data2/dgincident'
+
+    parameters = "?serviceKey=" + access_key
+    url = end_point + parameters
+    retData = get_request_url(url)
+
+    soup = BeautifulSoup(retData, "html.parser")
+    print(soup)
+
+get_car()
+# if __name__ == '__main__':
+#     finedust_main()
+
+

@@ -102,10 +102,17 @@ import json
 
 
 num = int(input("숫자"))
-print("-" * num)
+print("* " * (num-1))
 for i in range(1,(num+1),2):
-    print(("{:^%d}"%(num)).format("*" * i),("{:>%d}"%(num+1)).format("|"))
+    print(("*"),("{:^%d}"%(num)).format("*" * i),("*"))
     # print(("{:>%d}"%(num+1)).format("|"))
 
 for j in range((num-2),0,-2):
-    print(("{:^%d}"%(num)).format("*" * j))
+    print(("*"),("{:^%d}"%(num)).format("*" * j),("*"))
+print("* " * (num - 1))
+# print("")
+
+# print("* "*8)
+# for i in range(6):
+#     print("*"," "*11,"*")
+# print("* "*8)

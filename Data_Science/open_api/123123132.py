@@ -60,34 +60,52 @@ import json
 #
 #
 # get_rain_weather()
-
-
+#
+#
 # while True:
 #     if time.strftime("%S") == '20':
 #         print("ee")
 #         time.sleep(1)
-
+#
 # print(time.strftime("%M%S"))
-
+#
 # if int(time.strftime("%H") + '45') <= int(time.strftime("%H%M")):
-    # basetime = ("{0:0>2}{1}".format(time.strftime("%H"), "45"))
-    # basetime = time.strftime("%H")+'45'
-    # print(basetime)
-    # print(time.strftime("%H")+'45')
+#     basetime = ("{0:0>2}{1}".format(time.strftime("%H"), "45"))
+#     basetime = time.strftime("%H")+'45'
+#     print(basetime)
+#     print(time.strftime("%H")+'45')
 # else:
 #     basetime = ("{0:0>2}{1}".format(str(int(time.strftime("%H")) - 1), "45"))
 #     print(basetime)
-
+#
 # print()
 # print("{0:0>2}{1}".format(time.strftime("%H"),"45"))
 # print(time.strftime("%H")+'45')
+#
+# count = 0
+# zero = False
+# while True:
+#     if count != 0 and  zero == False:
+#         print("0이 아니야")
+#         zero = True
+#     count += 1
+#
+#
+# def sum(num):
+#     if num == 10:
+#         return 10
+#     else:
+#         return num+sum(num+1)
+#
+# num = 1
+# print(sum(num))
 
-count = 0
-zero = False
-while True:
-    if count != 0 and  zero == False:
-        print("0이 아니야")
-        zero = True
-    count += 1
 
+num = int(input("숫자"))
+print("-" * num)
+for i in range(1,(num+1),2):
+    print(("{:^%d}"%(num)).format("*" * i),("{:>%d}"%(num+1)).format("|"))
+    # print(("{:>%d}"%(num+1)).format("|"))
 
+for j in range((num-2),0,-2):
+    print(("{:^%d}"%(num)).format("*" * j))

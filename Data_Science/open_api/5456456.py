@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 access_key="UREVmQGGPyZcH9gz8eKshT%2Ffyo6paHADoJ4G2P1LuuJMY%2FqoBjGdMJ2icmwgclLU1cVM8YLzAz4qrpeKmfEKEg%3D%3D"
 
+
 def get_request_url(url):
     req = urllib.request.Request(url)
 
@@ -53,14 +54,17 @@ def get_car():
     end_point= 'http://car.daegu.go.kr/openapi-data/service/rest/data2/dgincident'
 
     parameters = "?serviceKey=" + access_key
+    parameters += "&numOfRows=1"
+    # parameters += "&pageNo=1"
+
     url = end_point + parameters
     retData = get_request_url(url)
 
     soup = BeautifulSoup(retData, "html.parser")
     print(soup)
-
+#
 get_car()
 # if __name__ == '__main__':
-#     finedust_main()
-
+    # finedust_main()
+#
 

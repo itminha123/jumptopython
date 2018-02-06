@@ -41,7 +41,6 @@ def update_scheduler():
         debug_index = debug_index+1
 
 
-
 def my_thread_terminate():
     while t.is_alive():
         try:

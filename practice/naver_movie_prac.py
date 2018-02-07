@@ -15,12 +15,12 @@ changes =  soup.findAll('td', attrs={'class':'range ac'})
 store_all = soup.find_all('img')
 # print(store_all)
 taste_all = []
-for i in store_all[8:107]:
+for i in store_all[8:108]:
     i = str(i)
     taste_all.append(i.split()[1].split("=")[1])
     # result.append(i[1])
 # print(taste_all)
-
+# print(len(taste_all))
 taste = []
 for i in taste_all:
     if i[1:-1] == 'na' :
@@ -29,7 +29,7 @@ for i in taste_all:
         taste.append("+")
     elif i[1:-1] == 'down':
         taste.append('-')
-# print(taste)
+# print(len(taste))
 
 name = []
 for tag in tags:
@@ -50,14 +50,14 @@ for i in range(len(taste)):
     taste_up_down.append([taste[i] + up_down[i]])
 
 # print(taste_up_down)
+# print(len(up_down))
+# print(len(taste_up_down))
+# print(len(name))
+result = []
+for i in range(len(name)):
+    result.append([str(i+1)]+name[i]+taste_up_down[i])
 
-print(len(taste_up_down))
-print(len(name))
-# result = []
-# for i in range(len(name)):
-#     result.append([str(i+1)]+name[i]+taste_up_down[i])
-
-# print(result)
+print(result)
 # movie_table = DataFrame(result,columns=('순위','영화명','변동폭'))
 # movie_table.to_csv('movie.csv', encoding="cp949",mode='w',index=False)
 #

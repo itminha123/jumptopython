@@ -119,7 +119,7 @@ import json
 
 data= [1,3,5,7,9,11,13,15,17,19]
 
-find_num = 3
+find_num = 4
 for i in range(len(data)):
     if find_num == data[i]:
         print("찾았다!")

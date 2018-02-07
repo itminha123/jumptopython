@@ -5,7 +5,7 @@ import pprint
 
 html = urllib.request.urlopen('http://movie.naver.com/movie/sdb/rank/rmovie.nhn')
 soup = BeautifulSoup(html,'html.parser')
-print(soup)
+# print(soup)
 # print(soup.prettify())
 
 tags =  soup.findAll('div', attrs={'class':'tit3'})
@@ -49,13 +49,15 @@ taste_up_down = []
 for i in range(len(taste)):
     taste_up_down.append([taste[i] + up_down[i]])
 
-print(taste_up_down)
+# print(taste_up_down)
 
-result = []
-for i in range(len(name)):
-    result.append([str(i+1)]+name[i]+taste_up_down[i])
+print(len(taste_up_down))
+print(len(name))
+# result = []
+# for i in range(len(name)):
+#     result.append([str(i+1)]+name[i]+taste_up_down[i])
 
-print(result)
+# print(result)
 # movie_table = DataFrame(result,columns=('순위','영화명','변동폭'))
 # movie_table.to_csv('movie.csv', encoding="cp949",mode='w',index=False)
 #

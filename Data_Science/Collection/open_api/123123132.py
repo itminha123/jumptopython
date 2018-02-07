@@ -101,18 +101,28 @@ import json
 # print(sum(num))
 
 
-num = int(input("숫자"))
-print("* " * (num-1))
-for i in range(1,(num+1),2):
-    print(("*"),("{:^%d}"%(num)).format("*" * i),("*"))
-    # print(("{:>%d}"%(num+1)).format("|"))
-
-for j in range((num-2),0,-2):
-    print(("*"),("{:^%d}"%(num)).format("*" * j),("*"))
-print("* " * (num - 1))
+# num = int(input("숫자"))
+# print("* " * (num-1))
+# for i in range(1,(num+1),2):
+#     print(("*"),("{:^%d}"%(num)).format("*" * i),("*"))
+#     print(("{:>%d}"%(num+1)).format("|"))
+#
+# for j in range((num-2),0,-2):
+#     print(("*"),("{:^%d}"%(num)).format("*" * j),("*"))
+# print("* " * (num - 1))
 # print("")
 
 # print("* "*8)
 # for i in range(6):
 #     print("*"," "*11,"*")
 # print("* "*8)
+
+data= [1,3,5,7,9,11,13,15,17,19]
+
+find_num = 3
+for i in range(len(data)):
+    if find_num == data[i]:
+        print("찾았다!")
+        break
+
+print("%d을(를) 찾을 수 없습니다." % find_num)

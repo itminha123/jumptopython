@@ -24,7 +24,7 @@ for i in store_all[8:108]:
 taste = []
 for i in taste_all:
     if i[1:-1] == 'na' :
-        taste.append(" ")
+        taste.append("")
     elif i[1:-1] == 'up' :
         taste.append("+")
     elif i[1:-1] == 'down':

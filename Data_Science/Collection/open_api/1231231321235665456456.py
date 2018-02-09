@@ -7,12 +7,14 @@ import wave
 import pygame
 import winsound
 from pygame import mixer
+# import mp3play
+import time
 
 
 client_id = "CJsADWzyJq8m29Qm7l11"           # <= 변경
 client_secret = "cv55RE05hD" # <= 변경
 encText = urllib.parse.quote("안녕하세요. 전민하입니다. 스마트홈네트워크를 구동시키겠습니다. 오늘의 뉴스를 알려드리겠습니다. 홍준표 대표는 류여해의원의 성추행 고소관련하여 말도 안된다며 MBN뉴스와 싸우고 있습니다. 재미있어요? 그럼 안녕!")
-data = "speaker=mijin&speed=&text=" + encText;
+data = "speaker=mijin&speed=0&text=" + encText;
 url = "https://openapi.naver.com/v1/voice/tts.bin"
 request = urllib.request.Request(url)
 request.add_header("X-Naver-Client-Id",client_id)
@@ -33,9 +35,13 @@ else:
 # s = pygame.mixer.Sound("11112.mp3")
 # s.play()
 # mixer.init()
-# mixer.music.load('11112.mp3')
-# mixer.music.play()
-#
+# pygame.mixer.music.load('11112.mp3')
+# pygame.mixer.music.play()
+# time.sleep(pygame.time)
+# time.sleep(20)
+# while True:
+# pygame.mixer.music.stop()
+
 # winsound.PlaySound("11112.mp3",winsound.SND_FILENAME)
 
 # import pyglet
@@ -45,6 +51,12 @@ else:
 #
 # pyglet.app.run()
 
-import os
-os.system("start 11112.mp3")
+# import os
+# os.system("start 11112.mp3")
 # os.system()
+
+# clip = mp3play.load("11112.mp3")
+# clip.play()
+#
+# time.sleep(min(30, clip.seconds()))
+# clip.stop()

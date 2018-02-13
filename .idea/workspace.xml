@@ -1,274 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="어렵다">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/11112.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/11csv_reader_select_contiguous_rows.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/1csv_read_with_simple_parsing_and_write.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2csv_reader_parsing_and_write.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/3csv_reader_value_meets_condition.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/4csv_reader_value_in_set.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/5csv_reader_value_matches_pattern.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/6csv_reader_column_by_index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/7csv_reader_column_by_name.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/11output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/1output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/2output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/3output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/4output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/5output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/6output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/7output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_2output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_3output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_4output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_5output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_6output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_7output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas2_parsing_and_write.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas3_value_meets_condition.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas4_value_in_set.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas5_value_matches_pattern.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas6_column_by_index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas7_column_by_name.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/sales_february_2014.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/sales_january_2014.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/sales_march_2014.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/supplier_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/supplier_data_no_header_row.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/supplier_data_unnecessary_header_footer.csv" />
+    <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_11output.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas11_select_contiguous_rows.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Analysis/Back_References.py" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Reqular_Expression/Back_References.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Analysis/Character_Class.py" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Reqular_Expression/Character_Class.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.01.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.01XML처리연습.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.01XML처리연습.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.02.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.03.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.03.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.04.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.04.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.05_cheogajip.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.05_cheogajip.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.06_naver_movie.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.06_naver_movie.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.07_ebiga.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.07_ebiga.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.07_eso.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.07_eso.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/07.07_이웃집소녀떡볶이.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.07_이웃집소녀떡볶이.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/1987.html" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/1987.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/blog.xml" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/blog.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/cheogajip.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/cheogajip.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/eso1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/eso1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/eso2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/eso2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/movie.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/movie.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/movie1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/movie1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/nene.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/nene.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/note.xml" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/note.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/11111.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/11111.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V1_BigData/Nene_Data[1]/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V3_BigData/Nene_Data1/nene2018_January_Thursday_11_10_15.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V3_BigData/Nene_Data1/nene2018_January_Thursday_11_10_15.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V3_BigData/Nene_Data1/nene2018_January_Thursday_11_10_28.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V3_BigData/Nene_Data1/nene2018_January_Thursday_11_10_28.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V3_BigData/Nene_Data1/nene2018_January_Thursday_11_10_40.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V3_BigData/Nene_Data1/nene2018_January_Thursday_11_10_40.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V3_BigData/Nene_Data2/nene2018_January_Thursday_11_10_53.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V3_BigData/Nene_Data2/nene2018_January_Thursday_11_10_53.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V3_BigData/Nene_Data2/nene2018_January_Thursday_11_11_18.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V3_BigData/Nene_Data2/nene2018_January_Thursday_11_11_18.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V3_BigData/Nene_Data2/nene2018_January_Thursday_11_11_35.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V3_BigData/Nene_Data2/nene2018_January_Thursday_11_11_35.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V3_BigData/nene_index.txt" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V3_BigData/nene_index.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene10.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene11.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene12.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene4.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene5.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene6.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene7.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene8.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene9.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data1/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene10.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene11.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene12.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene4.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene5.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene6.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene7.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene8.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene9.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data2/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene10.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene11.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene12.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene4.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene5.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene6.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene7.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene8.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene9.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data3/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene10.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene11.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene12.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene4.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene5.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene6.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene7.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene8.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene9.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data4/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene10.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene11.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene12.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene4.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene5.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene6.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene7.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene8.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene9.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data5/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene10.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene11.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene12.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene4.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene5.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene6.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene7.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene8.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene9.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data6/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene1.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene10.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene11.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene12.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene2.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene3.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene4.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene5.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene6.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene7.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene8.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene9.csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/Nene_Data7/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/V4_BigData/nene_index.txt" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/V4_BigData/nene_index.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/destination_csv" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/destination_csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/hahahahahahah.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/hahahahahahah.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/nene_ver1.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/nene_ver1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/nene_ver2.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/nene_ver2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/nene_ver3.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/nene_ver3.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/nene_ver4.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/nene_ver4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/HTML_XML/practice/nene_ver__2.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/practice/nene_ver__2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/big_data/엑셀불러오기.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/big_data_csv/엑셀불러오기.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/big_data/엑셀불러오기2.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/big_data_csv/엑셀불러오기2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/big_data/엑셀불러오기3.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/big_data_csv/엑셀불러오기3.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/big_data/엑셀불러오기4.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/big_data_csv/엑셀불러오기4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/big_data/엑셀불러오기5.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/big_data_csv/엑셀불러오기5.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/big_data/엑셀불러오기함수.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/big_data_csv/엑셀불러오기함수.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.01.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.0101.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.0101.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.01_01_jtbcnews_가져오기.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.01_01_jtbcnews_가져오기.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.01_02_jtbcnews공유수로_정렬하기.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.01_02_jtbcnews공유수로_정렬하기.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.01_03.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.01_03.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.02.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.0200.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.0200.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.0202.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.0202.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.03_01_navernews_가져오기.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.03_01_navernews_가져오기.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.03_02.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.03_02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/08.03_navernews_변경_기사수정렬.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.03_navernews_변경_기사수정렬.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/21312312321.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/21312312321.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/ITT_student.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/ITT_student.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/ITT_student.text" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/ITT_student.text" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/jtbcnews_facebook_2018-01-24_2018-01-25.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/jtbcnews_facebook_2018-01-24_2018-01-25.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/chap08/이명박_naver_news.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/chap08/이명박_naver_news.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/1111.mp3" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/1111.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/11112.mp3" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/11112.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/123123132.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/123123132.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/1231231321235665456456.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/1231231321235665456456.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/123132156456456.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/123132156456456.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/123212312312356.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/123212312312356.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/201612_해외방문객_Top10.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/201612_해외방문객_Top10.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/201612_해외방문객정보_.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/201612_해외방문객정보_.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/5456456.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/5456456.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/humidity_시뮬레이션.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/humidity_시뮬레이션.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/op_api_01.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/op_api_01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/op_api_02.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/op_api_02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/op_api_02_01.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/op_api_02_01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/op_api_02_0111py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/op_api_02_0111py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/op_api_02_02.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/op_api_02_02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/op_api_03.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/op_api_03.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/op_api_03_01.py" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/op_api_03_01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/날씨정보.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/날씨정보.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/미세.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/미세.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/미세2.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/미세2.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/서울특별시_관광지입장정보_2011_2011.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/서울특별시_관광지입장정보_2011_2011.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/서울특별시_관광지입장정보_2011_2016.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/서울특별시_관광지입장정보_2011_2016.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data_Science/Collection/open_api/중국(112)_해외방문객정보_2011_2016.json" afterPath="$PROJECT_DIR$/Data_Science/1. Collection/open_api/중국(112)_해외방문객정보_2011_2016.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/Demographic_Statistics_By_Zip_Code.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/Demographic_Statistics_By_Zip_Code.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/ITT_Student.json" afterPath="$PROJECT_DIR$/practice/json_practice/ITT_Student.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/ITT_Student.text" afterPath="$PROJECT_DIR$/practice/json_practice/ITT_Student.text" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/ITT_student_prac.py" afterPath="$PROJECT_DIR$/practice/json_practice/ITT_student_prac.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/get_csv.py" afterPath="$PROJECT_DIR$/practice/csv_practice/get_csv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/get_csv2.py" afterPath="$PROJECT_DIR$/practice/csv_practice/get_csv2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v1_bigdata/nene_data/nene1.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v1_bigdata/nene_data/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v1_bigdata/nene_data/nene2.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v1_bigdata/nene_data/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v1_bigdata/nene_data/nene3.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v1_bigdata/nene_data/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v1_bigdata/nene_data/nene4.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v1_bigdata/nene_data/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v1_bigdata/nene_index.txt" afterPath="$PROJECT_DIR$/practice/csv_practice/v1_bigdata/nene_index.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v2_bigdata/nene_data1/nene1.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v2_bigdata/nene_data1/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v2_bigdata/nene_data1/nene2.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v2_bigdata/nene_data1/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v2_bigdata/nene_data1/nene3.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v2_bigdata/nene_data1/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v2_bigdata/nene_data2/nene4.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v2_bigdata/nene_data2/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v2_bigdata/nene_data2/nene5.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v2_bigdata/nene_data2/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v2_bigdata/nene_data2/nene6.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v2_bigdata/nene_data2/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v2_bigdata/nene_index.txt" afterPath="$PROJECT_DIR$/practice/csv_practice/v2_bigdata/nene_index.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v3_bigdata/nene_data1/nene2018_January_Friday_11_11_30.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v3_bigdata/nene_data1/nene2018_January_Friday_11_11_30.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v3_bigdata/nene_data1/nene2018_January_Friday_11_11_45.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v3_bigdata/nene_data1/nene2018_January_Friday_11_11_45.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v3_bigdata/nene_data1/nene2018_January_Friday_11_11_52.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v3_bigdata/nene_data1/nene2018_January_Friday_11_11_52.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v3_bigdata/nene_data2/nene2018_January_Friday_11_11_59.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v3_bigdata/nene_data2/nene2018_January_Friday_11_11_59.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v3_bigdata/nene_data2/nene2018_January_Friday_11_17_17.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v3_bigdata/nene_data2/nene2018_January_Friday_11_17_17.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v3_bigdata/nene_index.txt" afterPath="$PROJECT_DIR$/practice/csv_practice/v3_bigdata/nene_index.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene1.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene10.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene11.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene12.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene2.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene3.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene4.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene5.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene6.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene7.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene8.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data1/nene9.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data1/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene1.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene10.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene11.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene12.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene2.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene3.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene4.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene5.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene6.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene7.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene8.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data2/nene9.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data2/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene1.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene10.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene11.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene12.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene2.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene3.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene4.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene5.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene6.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene7.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene8.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_data3/nene9.csv" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_data3/nene9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/practice/v4_bigdata/nene_index.txt" afterPath="$PROJECT_DIR$/practice/csv_practice/v4_bigdata/nene_index.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/11output.csv" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/11output.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -285,8 +22,8 @@
       <file leaf-file-name="11csv_reader_select_contiguous_rows.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/11csv_reader_select_contiguous_rows.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="252">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -294,33 +31,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11output.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/11output.csv">
+      <file leaf-file-name="pandas11_select_contiguous_rows.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas11_select_contiguous_rows.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1output.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/1output.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7csv_reader_column_by_name.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/7csv_reader_column_by_name.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -342,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jumptopython/chap08/08.01_02.py" />
         <option value="$PROJECT_DIR$/jumptopython/chap08/08.01_03.py" />
         <option value="$PROJECT_DIR$/jumptopython/chap08/08.03_01.py" />
         <option value="$PROJECT_DIR$/jumptopython/chap08/이명박_naver_news.json" />
@@ -393,6 +109,7 @@
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas7_column_by_name.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/7csv_reader_column_by_name.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/11csv_reader_select_contiguous_rows.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas11_select_contiguous_rows.py" />
       </list>
     </option>
   </component>
@@ -433,14 +150,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Science" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Science" type="462c0819:PsiDirectoryNode" />
+              <item name="2. Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Science" type="462c0819:PsiDirectoryNode" />
+              <item name="2. Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="CSV_Advanced_Chap02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11csv_reader_select_contiguous_rows">
+  <component name="RunManager" selected="Python.pandas11_select_contiguous_rows">
     <configuration name="11csv_reader_select_contiguous_rows" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,7 +248,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/11csv_reader_select_contiguous_rows.py" />
-      <option name="PARAMETERS" value="supplier_data.csv output_files\11output.csv" />
+      <option name="PARAMETERS" value="supplier_data_unnecessary_header_footer.csv output_files\11output.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -541,7 +286,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="pandas6_column_by_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pandas11_select_contiguous_rows" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -553,8 +298,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas6_column_by_index.py" />
-      <option name="PARAMETERS" value="supplier_data.csv output_files\pandas_6output.csv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas11_select_contiguous_rows.py" />
+      <option name="PARAMETERS" value="supplier_data_unnecessary_header_footer.csv output_files\pandas_11output.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -577,18 +322,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.6csv_reader_column_by_index" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pandas6_column_by_index" />
-      <item index="2" class="java.lang.String" itemvalue="Python.7csv_reader_column_by_name" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pandas7_column_by_name" />
-      <item index="4" class="java.lang.String" itemvalue="Python.11csv_reader_select_contiguous_rows" />
+      <item index="1" class="java.lang.String" itemvalue="Python.7csv_reader_column_by_name" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pandas7_column_by_name" />
+      <item index="3" class="java.lang.String" itemvalue="Python.11csv_reader_select_contiguous_rows" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pandas11_select_contiguous_rows" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11csv_reader_select_contiguous_rows" />
-        <item index="1" class="java.lang.String" itemvalue="Python.7csv_reader_column_by_name" />
-        <item index="2" class="java.lang.String" itemvalue="Python.6csv_reader_column_by_index" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pandas7_column_by_name" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pandas6_column_by_index" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pandas11_select_contiguous_rows" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11csv_reader_select_contiguous_rows" />
+        <item index="2" class="java.lang.String" itemvalue="Python.7csv_reader_column_by_name" />
+        <item index="3" class="java.lang.String" itemvalue="Python.6csv_reader_column_by_index" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pandas7_column_by_name" />
       </list>
     </recent_temporary>
   </component>
@@ -907,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518163954483</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="어렵다">
+      <created>1518423302907</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1518423302907</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -922,16 +674,16 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31017193" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3144699" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6990679" sideWeight="0.36819485" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4051144" sideWeight="0.6318052" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.4948276" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4051144" sideWeight="0.6318052" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34724092" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1216,23 +968,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data_Science/1. Collection/chap08/08.01_02_jtbcnews공유수로_정렬하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/1. Collection/open_api/날씨정보.json" />
-    <entry file="file://$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1369,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1387,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1395,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1421,9 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1431,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,9 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,9 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1467,7 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,9 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1485,7 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1493,9 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1503,9 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1513,9 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1523,9 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1551,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,9 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1569,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,21 +1291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/7csv_reader_column_by_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/7output.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,10 +1306,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/11csv_reader_select_contiguous_rows.py">
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/supplier_data_unnecessary_header_footer.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/7csv_reader_column_by_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -1634,6 +1329,34 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/11csv_reader_select_contiguous_rows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_11output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas11_select_contiguous_rows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

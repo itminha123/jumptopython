@@ -8,6 +8,8 @@ output_file = sys.argv[2]
 
 all_files = glob.glob(os.path.join(input_path, 'sales_*'))
 all_data_frames = []
+print(all_files)
+'''
 for input_file in all_files:
     data_frame = pd.read_csv(input_file, index_col=None)
 
@@ -24,3 +26,4 @@ for input_file in all_files:
 
 data_frame_concat = pd.concat(all_data_frames, axis=0, ignore_index=True)
 data_frame_concat.to_csv(output_file, index=False)
+'''

@@ -2,28 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/2output.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/sales_2013.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/sales_2014.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/sales_2015.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016_Traffic_accident.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016년_사고유형별_가해운전자연령층별_교통사고통계_20161019.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016년_사고유형별_가해운전자차종별_교통사고통계_20161019.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016년_사고유형별_도로종류별_교통사고통계_20161019.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016년_사고유형별_법규위반별_교통사고통계_20161019.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016년_사고유형별_월별_교통사고통계_20161019.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016년_사고유형별통계.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_10output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_9output.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/1excel_introspect_workbook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/2excel_parsing_and_write.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3excel_parsing_and_write_keep_dates.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas3_parsing_and_write_keep_dates.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cap03.iml" afterPath="$PROJECT_DIR$/.idea/cap03.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/10output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/11output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/13output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/14output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/3output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/4output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/5output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/6output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/7output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/8output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/9output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_10output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_11output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_13output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_3output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_4output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_5output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_6output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_7output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_8output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/output_files/pandas_9output.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/10excel_column_by_name_all.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/11excel_value_meets_condition_set_of_worksheets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/12excel_introspect_all_workbooks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/13excel_concat_data_from_multiple_workbooks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/14excel_sum_average_multiple_workbooks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/4ecxel_value_meets_condition.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/5excel_value_in_set.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/6excel_value_matches_pattern.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/7excel_column_by_index.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/8excel_column_by_name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/9excel_value_meets_condition_all_worksheets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas10_column_by_name_all_worksheets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas11_value_meets_condition_set_of_worksheets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas13_concat_data_from_multiple_workbooks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas14_sum_average_multiple_workbooks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas4_value_meets_condition.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas5_value_in_set.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas6_value_matches_pattern.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas7_column_by_index.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas8_column_by_name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas9_value_meets_condition_all_worksheets.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/10output.csv" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/10output.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas10_sum_average_from_multiple_files.py" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas10_sum_average_from_multiple_files.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3excel_parsing_and_write_keep_dates.py" afterPath="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3excel_parsing_and_write_keep_dates.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,33 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ITT_student_prac.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/json_practice/ITT_student_prac.py">
+      <file leaf-file-name="13excel_concat_data_from_multiple_workbooks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/13excel_concat_data_from_multiple_workbooks.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016_Traffic_accident.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016_Traffic_accident.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding>
-                <element signature="e#33#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1excel_introspect_workbook.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/1excel_introspect_workbook.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -71,11 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2excel_parsing_and_write.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/2excel_parsing_and_write.py">
+      <file leaf-file-name="pandas13_concat_data_from_multiple_workbooks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas13_concat_data_from_multiple_workbooks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="261">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14excel_sum_average_multiple_workbooks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/14excel_sum_average_multiple_workbooks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-600">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -83,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pandas3_parsing_and_write_keep_dates.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas3_parsing_and_write_keep_dates.py">
+      <file leaf-file-name="pandas14_sum_average_multiple_workbooks.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas14_sum_average_multiple_workbooks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="366">
+              <caret line="49" column="68" lean-forward="false" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -95,21 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="naver_movie_prac.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/naver_movie_prac.py">
+      <file leaf-file-name="pandas11_value_meets_condition_set_of_worksheets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas11_value_meets_condition_set_of_worksheets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10csv_reader_sum_average_from_multiple_files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/10csv_reader_sum_average_from_multiple_files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -134,28 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jumptopython/chap09/op_api_03_01.py" />
-        <option value="$PROJECT_DIR$/jumptopython/chap09/123123132.py" />
-        <option value="$PROJECT_DIR$/jumptopython/chap09/humidity_시뮬레이션.json" />
-        <option value="$PROJECT_DIR$/jumptopython/chap09/rain_시뮬레이션.json" />
-        <option value="$PROJECT_DIR$/jumptopython/chap09/op_api_03.py" />
-        <option value="$PROJECT_DIR$/jumptopython/chap08/08.03_01_navernews_가져오기.py" />
-        <option value="$PROJECT_DIR$/jumptopython/chap08/08.03_02.py" />
-        <option value="$PROJECT_DIR$/practice/nene_prac.py" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/미세2.json" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/날씨정보.json" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/op_api_03.py" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/123132156456456.py" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/123212312312356.py" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/5456456.py" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/1231231321235665456456.py" />
-        <option value="$PROJECT_DIR$/Data_Science/open_api/123123132.py" />
-        <option value="$PROJECT_DIR$/Data_Science/Collection/Analysis/Character_Class.py" />
-        <option value="$PROJECT_DIR$/Data_Science/Collection/open_api/123123132.py" />
-        <option value="$PROJECT_DIR$/practice/naver_movie_prac.py" />
-        <option value="$PROJECT_DIR$/jumptopython/pratice all/practice_4.py" />
-        <option value="$PROJECT_DIR$/Data_Science/Collection/open_api/1231231321235665456456.py" />
-        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/1csv_read_with_simple_parsing_and_write.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas_parsing_and_write.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2csv_reader_parsing_and_write.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/3csv_reader_value_meets_condition.py" />
@@ -183,14 +163,36 @@
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/1excel_introspect_workbook.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/2excel_parsing_and_write.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3exel_parsing_and_write_keep_dates.py" />
-        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3excel_parsing_and_write_keep_dates.py" />
         <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas3_parsing_and_write_keep_dates.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3excel_parsing_and_write_keep_dates.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/4exel_value_meets_condition.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas_4value_meets_condition.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas4_value_meets_condition.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/5excel_value_in_set.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas5_value_in_set.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/6excel_value_matches_pattern.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas6_value_matches_pattern.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas7_column_by_index.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas8_column_by_name.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/7excel_column_by_index.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/8excel_column_by_name.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/9excel_value_meets_condition_all_worksheets.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas9_value_meets+condition_all_worksheets.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/10excel_column_by_name_all.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas10_column_by_name_all_worksheets.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/11excel_value_meets_condition_set_of_worksheets.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas11_value_meets_condition_set_of_worksheets.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/12excel_introspect_all_workbooks.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/13excel_concat_data_from_multiple_workbooks.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas13_concat_data_from_multiple_workbooks.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/14excel_sum_average_multiple_workbooks.py" />
+        <option value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas14_sum_average_multiple_workbooks.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="132" />
+    <option name="x" value="161" />
+    <option name="y" value="2" />
     <option name="width" value="1271" />
     <option name="height" value="828" />
   </component>
@@ -226,6 +228,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,8 +283,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandas3_parsing_and_write_keep_dates">
-    <configuration name="1excel_introspect_workbook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.14excel_sum_average_multiple_workbooks">
+    <configuration name="12excel_introspect_all_workbooks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -294,46 +296,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/1excel_introspect_workbook.py" />
-      <option name="PARAMETERS" value="sales_2013.xlsx" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/12excel_introspect_all_workbooks.py" />
+      <option name="PARAMETERS" value="&quot;D:\python\jumptopython\Data_Science\2. Analysis\Excel_Chap03&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="2016_Traffic_accident (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016_Traffic_accident.py" />
-      <option name="PARAMETERS" value="&quot;D:\python\jumptopython\Data_Science\2. Analysis\CSV_Advanced_Chap02\2016_traffic_20161019&quot;" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="2016_Traffic_accident" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016년_사고유형별교통사고통계_20161019" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016년_사고유형별교통사고통계_20161019/2016_Traffic_accident.py" />
-      <option name="PARAMETERS" value="&quot;D:\python\jumptopython\Data_Science\2. Analysis\CSV_Advanced_Chap02\2016_traffic_20161019&quot;" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="2excel_parsing_and_write" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="13excel_concat_data_from_multiple_workbooks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -345,12 +313,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/2excel_parsing_and_write.py" />
-      <option name="PARAMETERS" value="sales_2013.xlsx output_files\2output.xls" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/13excel_concat_data_from_multiple_workbooks.py" />
+      <option name="PARAMETERS" value="&quot;D:\python\jumptopython\Data_Science\2. Analysis\Excel_Chap03&quot; output_files\13output.xls" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="pandas3_parsing_and_write_keep_dates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14excel_sum_average_multiple_workbooks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -362,25 +330,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cap03" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas3_parsing_and_write_keep_dates.py" />
-      <option name="PARAMETERS" value="sales_2013.xlsx output_files\pandas_3output.xls" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/14excel_sum_average_multiple_workbooks.py" />
+      <option name="PARAMETERS" value="&quot;D:\python\jumptopython\Data_Science\2. Analysis\Excel_Chap03&quot; output_files\14output.xls" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pandas11_value_meets_condition_set_of_worksheets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cap03" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas11_value_meets_condition_set_of_worksheets.py" />
+      <option name="PARAMETERS" value="sales_2013.xlsx output_files\pandas_11output.xls" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pandas13_concat_data_from_multiple_workbooks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cap03" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas13_concat_data_from_multiple_workbooks.py" />
+      <option name="PARAMETERS" value="&quot;D:\python\jumptopython\Data_Science\2. Analysis\Excel_Chap03&quot; output_files\pandas_13output.xls" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.2016_Traffic_accident" />
-      <item index="1" class="java.lang.String" itemvalue="Python.2016_Traffic_accident (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1excel_introspect_workbook" />
-      <item index="3" class="java.lang.String" itemvalue="Python.2excel_parsing_and_write" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pandas3_parsing_and_write_keep_dates" />
+      <item index="0" class="java.lang.String" itemvalue="Python.pandas11_value_meets_condition_set_of_worksheets" />
+      <item index="1" class="java.lang.String" itemvalue="Python.12excel_introspect_all_workbooks" />
+      <item index="2" class="java.lang.String" itemvalue="Python.13excel_concat_data_from_multiple_workbooks" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pandas13_concat_data_from_multiple_workbooks" />
+      <item index="4" class="java.lang.String" itemvalue="Python.14excel_sum_average_multiple_workbooks" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.pandas3_parsing_and_write_keep_dates" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2excel_parsing_and_write" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1excel_introspect_workbook" />
-        <item index="3" class="java.lang.String" itemvalue="Python.2016_Traffic_accident (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.2016_Traffic_accident" />
+        <item index="0" class="java.lang.String" itemvalue="Python.14excel_sum_average_multiple_workbooks" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pandas13_concat_data_from_multiple_workbooks" />
+        <item index="2" class="java.lang.String" itemvalue="Python.13excel_concat_data_from_multiple_workbooks" />
+        <item index="3" class="java.lang.String" itemvalue="Python.12excel_introspect_all_workbooks" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pandas11_value_meets_condition_set_of_worksheets" />
       </list>
     </recent_temporary>
   </component>
@@ -706,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518423302907</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="어렵다">
+      <created>1518596208203</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1518596208203</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -721,16 +730,16 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23495702" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20630373" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6990679" sideWeight="0.36819485" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43607" sideWeight="0.6318052" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43607" sideWeight="0.37535816" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.4948276" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3512786" sideWeight="0.62464184" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34724092" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2953125" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34724092" sideWeight="0.8804687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -995,6 +1004,26 @@
           <line>8</line>
           <option name="timeStamp" value="218" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/5excel_value_in_set.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/11excel_value_meets_condition_set_of_worksheets.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/13excel_concat_data_from_multiple_workbooks.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/13excel_concat_data_from_multiple_workbooks.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1003,7 +1032,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="226" />
+      <option name="time" value="231" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1015,162 +1044,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas3_value_meets_condition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/4output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/4csv_reader_value_in_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_4output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas5_value_matches_pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/5csv_reader_value_matches_pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas4_value_in_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas6_column_by_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/1. Collection/HTML_XML/07.07_이웃집소녀떡볶이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/supplier_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/csv_practice/get_csv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/6csv_reader_column_by_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas7_column_by_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/7output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/1output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/supplier_data_unnecessary_header_footer.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/7csv_reader_column_by_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/11output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/pandas11_select_contiguous_rows.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/12csv_reader_add_header_row.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/pandas_12output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/output_files/12output.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1308,37 +1181,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/json_practice/ITT_student_prac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1575">
           <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016_Traffic_accident.py">
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/1excel_introspect_workbook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/1excel_introspect_workbook.py">
+    <entry file="file://$PROJECT_DIR$/practice/naver_movie_prac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1218">
+          <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,34 +1211,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3excel_parsing_and_write_keep_dates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/naver_movie_prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas3_parsing_and_write_keep_dates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas5_value_in_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/6excel_value_matches_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/5excel_value_in_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas4_value_meets_condition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/4ecxel_value_meets_condition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/CSV_Advanced_Chap02/2016_traffic_20161019/2016_Traffic_accident.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/3excel_parsing_and_write_keep_dates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas6_value_matches_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas8_column_by_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/7excel_column_by_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas7_column_by_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/8excel_column_by_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas9_value_meets_condition_all_worksheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/9excel_value_meets_condition_all_worksheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/11excel_value_meets_condition_set_of_worksheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/12excel_introspect_all_workbooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas10_column_by_name_all_worksheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/10excel_column_by_name_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas11_value_meets_condition_set_of_worksheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/13excel_concat_data_from_multiple_workbooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/14excel_sum_average_multiple_workbooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas13_concat_data_from_multiple_workbooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/2. Analysis/Excel_Chap03/pandas14_sum_average_multiple_workbooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="49" column="68" lean-forward="false" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

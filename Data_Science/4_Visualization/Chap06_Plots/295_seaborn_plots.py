@@ -19,7 +19,7 @@ plt.legend(loc="best")
 plt.show()
 
 
-# Histogram
+# Histogram 히스토그램
 x = np.random.normal(size=1000)
 sns.distplot(x, bins=20, kde=True, rug=False, label="Histogram w/o Density")
 sns.axlabel("Value", "Frequency")
@@ -28,7 +28,7 @@ plt.legend()
 plt.show()
 
 
-# Scatter plot
+# Scatter plot 회귀선과 일변량 히스토그램을 포함한 산점도
 mean, cov = [5, 10], [(1, .5), (.5, 1)]
 data = np.random.multivariate_normal(mean, cov, 200)
 data_frame = pd.DataFrame(data, columns=["x", "y"])
@@ -37,13 +37,13 @@ plt.suptitle("Joint Plot of Two Variables with Bivariate and Univariate Graphs")
 plt.show()
 
 
-# Pairwise bivariate
-#iris = sns.load_dataset("iris")
-#sns.pairplot(iris)
+# Pairwise bivariate 쌍별 이변량 산점도
+# iris = sns.load_dataset("iris")
+# sns.pairplot(iris)
 #plt.show()
 
 
-# Linear regression model
+# Linear regression model 여러변수에 대한 상자그림
 tips = sns.load_dataset("tips")
 #sns.lmplot(x="total_bill", y="tip", data=tips)
 sns.lmplot(x="size", y="tip", data=tips, x_jitter=.15, ci=None)
@@ -51,7 +51,7 @@ sns.lmplot(x="size", y="tip", data=tips, x_jitter=.15, ci=None)
 plt.show()
 
 
-# Box plots
+# Box plots 부트스트랩 신뢰구간을 포함한 선형회귀모형
 sns.boxplot(x="day", y="total_bill", hue="time", data=tips)
 #sns.factorplot(x="time", y="total_bill", hue="smoker",
 #               col="day", data=tips, kind="box", size=4, aspect=.5)

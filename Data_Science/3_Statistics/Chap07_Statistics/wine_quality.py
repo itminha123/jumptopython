@@ -45,7 +45,7 @@ sns.set_style("dark")
 
 g = sns.pairplot(wine_sample, kind='reg', plot_kws={"ci": False, "x_jitter":0.25, "y_jitter": 0.25},
                  hue='type', diag_kind='hist', diag_kws= {"bins": 10, "alpha": 1.0},
-                 palette=dict(red='red', white="white"), markers=["o", "s"],
+                 palette=dict(red='red', white="blue"), markers=["o", "s"],
                  vars= ['quality', 'alcohol', 'residual_sugar'])
 
 print(g)
@@ -61,7 +61,7 @@ sns.set_style('dark')
 print(sns.distplot(red_wine,
                    norm_hist=True, kde=False, color="red", label="Red wine"))
 print(sns.distplot(white_wine,
-                   norm_hist=True, kde=False, color="white", label="White wine"))
+                   norm_hist=True, kde=False, color="blue", label="White wine"))
 # plt.utils.axlabel("Quality Score", "Density")
 plt.xlabel("Quality Score")
 plt.ylabel("Density")

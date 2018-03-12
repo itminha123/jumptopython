@@ -11,13 +11,12 @@ iris = pd.read_csv('iris.csv', sep=',', header=0)
 
 iris.columns = [heading.lower() for heading in iris.columns.str.replace('.','_')]
 
-iris['variety01'] = np.where(iris['variety'] == 'Setosa', 1., 0.)
+iris['variety01'] = np.where(iris['variety'] == 'Versicolor', 1., 0.)
 
-print(iris.head())
+print(iris.head(100))
 
 # 그룹별 기술통계 구하기
 # print(iris.groupby(['variety'])[['sepal_length', 'sepal_width', 'petal_length', 'petal_width']].agg(['count', 'mean', 'std']))
-
 
 dependent_variable = iris['variety01']
 independent_variables = iris[['sepal_length', 'sepal_width', 'petal_length', 'petal_width']]
@@ -32,9 +31,11 @@ y_predicted_rounded = [round(score, 2) for score in y_predicted]
 print(y_predicted_rounded)
 
 result = []
-for i in y_predicted:
-    if i == 1.0 :
-        result.append("Setosa")
+for i in y_predicted_rounded:
+    if i > 0.8 :
+        print("Versicolor")
+    elif 0.4 < i < 0.8 :
+        print("vague")
     else:
-        result.append("not Setosa")
-print(result)
+        print("not Versicolor")
+# print(result)

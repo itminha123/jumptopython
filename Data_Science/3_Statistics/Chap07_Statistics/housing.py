@@ -6,7 +6,7 @@ import statsmodels.api as sm
 import statsmodels.formula as smf
 from statsmodels.formula.api import ols, glm
 
-housing = pd.read_csv("Housing.csv", sep=",", header=0)
+housing = pd.read_csv("housing.csv", sep=",", header=0)
 
 housing['house_driveway'] = np.where(housing['driveway'] == 'yes', 1, 0)
 housing['house_recroom'] = np.where(housing['recroom'] == 'yes', 1, 0)

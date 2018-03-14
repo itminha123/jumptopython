@@ -14,14 +14,13 @@ with open(input_file, 'r', newline='') as text_file:
             day = row_list[0].strip()
             note = row_list[4].strip('\n').strip()
             if note not in notes:
-                notes.append(음표)
+                notes.append(note)
             if day not in messages:
                 messages[day] = {}
             if note not in messages[day]:
                 messages[day][note] = 1
             else:
                 messages[day][note] += 1
-
 
 filewriter = open(output_file, 'w', newline='')
 header = ['Date']

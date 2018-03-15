@@ -1,1 +1,0 @@
-render.render_test()

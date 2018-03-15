@@ -23,7 +23,7 @@ new_observations = iris.ix[iris.index.isin(random.sample(range(100), 25)), indep
 new_observations_with_constant = sm.add_constant(new_observations, prepend=True)
 y_predicted = logit_model.predict(new_observations_with_constant)
 y_predicted_rounded = [round(score, 2) for score in y_predicted]
-# print(y_predicted_rounded)
+print(y_predicted_rounded)
 
 result = []
 versicolor = 0

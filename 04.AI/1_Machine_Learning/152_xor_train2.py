@@ -19,6 +19,8 @@ clf = svm.SVC()                 # SVC 모델 만들기
 clf.fit(xor_data, xor_label)    # fit 학습
 pre = clf.predict(xor_data)     # predict 예측
 
+print(pre)
+
 # 정답률 구하기 --- (3)
 ac_score = metrics.accuracy_score(xor_label, pre)
 print("정답률 =", ac_score)

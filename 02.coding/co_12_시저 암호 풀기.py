@@ -5,3 +5,21 @@
 # 어떠한 암호를 만들 문장과 n을 입력했을 때 암호를 만들어 출력하는 프로그램을 작성해라.
 
 
+result_list = ["A","B","C","D","E","F","G","H","I","J","K","L","N","M",
+               "O","P","Q","R","S","T", "U","V","W","X","Y","Z"]
+
+secret_text = input("암호 문장을 입력하세요: ")
+secret_count = int(input("숫자를 입력하세요: "))
+# print(secret_text[0])
+result = ""
+for i in range(len(secret_text)):
+    for j in range(len(result_list)):
+        if secret_text[i] == result_list[j]:
+            if j+secret_count > len(result_list):
+                over_index = (j + secret_count) % len(result_list)
+                result += result_list[over_index]
+            else:
+                result += result_list[j+secret_count]
+
+
+print(result)

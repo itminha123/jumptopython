@@ -2,234 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f3bf9-a15f-479f-8ccb-dcc4663bbe7f" name="Default" comment="어렵다">
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/150_and_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/150_or_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/150_xor_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/152_xor_train2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/155_iris_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/155_iris_train2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/155_iris_train3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/157_iris_train2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/161_mnist-download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/163_mnist-tocsv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/165_mnist-train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/171_lang-train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/173_lang-plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/184_bmi-create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/185_bmi-test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/187_bmi-plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/Housing_machine_learning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/Housing_machine_learning_svc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/bmi.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/housing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/iris01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/iris02.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang-plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/freq.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/en-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/en-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/fr-3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/fr-4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/id-5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/id-6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/tl-7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/test/tl-8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/en-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/en-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/en-3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/en-4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/en-5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/fr-10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/fr-6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/fr-7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/fr-8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/fr-9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/id-11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/id-12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/id-13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/id-14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/id-15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/tl-16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/tl-17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/tl-18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/tl-19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/lang/train/tl-20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-0-7.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-1-2.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-2-1.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-3-0.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-4-4.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-5-1.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-6-4.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-7-9.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-8-5.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-9-9.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/t10k.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-0-5.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-1-0.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-2-4.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-3-1.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-4-9.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-5-2.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-6-1.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-7-3.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-8-1.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-9-4.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/mnist/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/1. Machine_Learning/test_today_ai.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/275_konlpy-basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/277_hong_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/282_hong.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/284_hong_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/297_bayes_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/3. Text_Mining.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/bayes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/hong.model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/hong.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/hong.wakati" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/lev-distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.AI/3. Text_Mining/ngram-test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Integration/Sochet_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Integration/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Integration/client_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Integration/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python36.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/select.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.jumptopython/postech_prac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheohajip_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cap03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cap03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.jumptopython/chap03/연습문제 풀이/마름모.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.jumptopython/chap03/연습문제 풀이/마름모.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.coding/co_12_시저 암호 풀기.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.coding/co_12_시저 암호 풀기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/150_and_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/150_or_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/150_xor_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/152_xor_train2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/155_iris_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/155_iris_train2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/155_iris_train3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/157_iris_train2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/161_mnist-download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/163_mnist-tocsv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/165_mnist-train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/171_lang-train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/173_lang-plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/184_bmi-create.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/185_bmi-test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/187_bmi-plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/Housing_machine_learning.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/Housing_machine_learning_svc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/bmi.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/housing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/iris.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/iris01.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/iris02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang-plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/freq.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/en-1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/en-2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/fr-3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/fr-4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/id-5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/id-6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/tl-7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/test/tl-8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/en-1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/en-2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/en-3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/en-4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/en-5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/fr-10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/fr-6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/fr-7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/fr-8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/fr-9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/id-11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/id-12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/id-13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/id-14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/id-15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/tl-16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/tl-17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/tl-18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/tl-19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/lang/train/tl-20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-0-7.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-1-2.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-2-1.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-3-0.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-4-4.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-5-1.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-6-4.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-7-9.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-8-5.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-9-9.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/t10k.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-0-5.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-1-0.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-2-4.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-3-1.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-4-9.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-5-2.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-6-1.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-7-3.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-8-1.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-9-4.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/mnist/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.AI/1_Machine_Learning/test_today_ai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.03.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -243,81 +21,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="275_konlpy-basic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/275_konlpy-basic.py">
+      <file leaf-file-name="07.05_cheogajip.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheogajip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="282_hong.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/282_hong.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="105">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding>
-                <element signature="e#27#40#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="284_hong_analysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/284_hong_analysis.py">
+      <file leaf-file-name="07.05_cheohajip_02.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheohajip_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="297_bayes_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/297_bayes_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bayes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/bayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="63">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lev-distance.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/lev-distance.py">
+      <file leaf-file-name="07.03.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="105">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ngram-test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/ngram-test.py">
+      <file leaf-file-name="07.07_이웃집소녀떡볶이.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.07_이웃집소녀떡볶이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="277_hong_count.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/277_hong_count.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="138">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="40" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -340,8 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Data_Science/3_Statistics/Chap07_Statistics/318_cutomer_churn_02.py" />
-        <option value="$PROJECT_DIR$/Data_Science/3_Statistics/Chap07_Statistics/319_customer_churn_02.py" />
         <option value="$PROJECT_DIR$/Data_Science/3_Statistics/Chap07_Statistics/319_customer_churn_01.py" />
         <option value="$PROJECT_DIR$/Data_Science/3_Statistics/Chap07_Statistics/320_custmer_churn_01.py" />
         <option value="$PROJECT_DIR$/Data_Science/3_Statistics/Chap07_Statistics/320_customer_churn_02.py" />
@@ -391,13 +132,16 @@
         <option value="$USER_HOME$/Downloads/client.py" />
         <option value="$PROJECT_DIR$/05.Integration/Sochet_client.py" />
         <option value="$PROJECT_DIR$/04.AI/3. Text_Mining/275_konlpy-basic.py" />
+        <option value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.03.py" />
+        <option value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheohajip_02.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="width" value="1036" />
-    <option name="height" value="832" />
+    <option name="x" value="68" />
+    <option name="y" value="108" />
+    <option name="width" value="1436" />
+    <option name="height" value="906" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -431,18 +175,20 @@
             <path>
               <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
-              <item name="04.AI" type="462c0819:PsiDirectoryNode" />
+              <item name="03.Data_Science" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
-              <item name="04.AI" type="462c0819:PsiDirectoryNode" />
-              <item name="3. Text_Mining" type="462c0819:PsiDirectoryNode" />
+              <item name="03.Data_Science" type="462c0819:PsiDirectoryNode" />
+              <item name="1_Collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jumptopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="jumptopython" type="462c0819:PsiDirectoryNode" />
-              <item name="05.Integration" type="462c0819:PsiDirectoryNode" />
+              <item name="03.Data_Science" type="462c0819:PsiDirectoryNode" />
+              <item name="1_Collection" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML_XML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,7 +201,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -493,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ngram-test">
-    <configuration name="282_hong" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.07.05_cheohajip_02">
+    <configuration name="07.03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cap03" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -502,17 +248,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.AI/3. Text_Mining" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.AI/3. Text_Mining/282_hong.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="284_hong_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07.05_cheogajip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cap03" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -520,17 +266,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.AI/3. Text_Mining" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.AI/3. Text_Mining/284_hong_analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheogajip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="297_bayes_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07.05_cheohajip_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cap03" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -538,17 +284,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.AI/3. Text_Mining" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.AI/3. Text_Mining/297_bayes_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheohajip_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="lev-distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07.06_naver_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cap03" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -556,11 +302,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.AI/3. Text_Mining" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.AI/3. Text_Mining/lev-distance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.06_naver_movie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -585,19 +331,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.282_hong" />
-      <item itemvalue="Python.284_hong_analysis" />
-      <item itemvalue="Python.297_bayes_test" />
-      <item itemvalue="Python.lev-distance" />
       <item itemvalue="Python.ngram-test" />
+      <item itemvalue="Python.07.05_cheogajip" />
+      <item itemvalue="Python.07.05_cheohajip_02" />
+      <item itemvalue="Python.07.06_naver_movie" />
+      <item itemvalue="Python.07.03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.07.05_cheohajip_02" />
+        <item itemvalue="Python.07.03" />
+        <item itemvalue="Python.07.06_naver_movie" />
+        <item itemvalue="Python.07.05_cheogajip" />
         <item itemvalue="Python.ngram-test" />
-        <item itemvalue="Python.lev-distance" />
-        <item itemvalue="Python.297_bayes_test" />
-        <item itemvalue="Python.284_hong_analysis" />
-        <item itemvalue="Python.282_hong" />
       </list>
     </recent_temporary>
   </component>
@@ -968,14 +714,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="0" width="1036" height="832" extended-state="0" />
+    <frame x="68" y="108" width="1436" height="906" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49550563" visible="true" weight="0.26764706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49550563" visible="true" weight="0.19225352" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.38610315" side_tool="true" weight="0.3768506" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49713466" weight="0.32839838" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4948276" weight="0.33647376" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61389685" weight="0.3455979" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61389685" visible="true" weight="0.44974875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Favorites" order="12" sideWeight="0.50449437" side_tool="true" weight="0.2953125" />
@@ -1292,21 +1038,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02.coding/co_11_100까지의 자연수의 합의 제곱과 제곱의 합의 차이.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04.AI/1_Machine_Learning/165_mnist-train.py" />
-    <entry file="file://$USER_HOME$/Desktop/딱따구리/StrList.py" />
-    <entry file="file://$USER_HOME$/Desktop/딱따구리/ServerSetting.py" />
-    <entry file="file://$USER_HOME$/Desktop/딱따구리/Main.py" />
-    <entry file="file://$USER_HOME$/Desktop/딱따구리/Comu.py" />
-    <entry file="file://$PROJECT_DIR$/04.AI/1_Machine_Learning/150_and_train.py" />
-    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/big_data_csv/엑셀불러오기.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jumptopython/pratice all/practice_1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.jumptopython/pratice all/practice_2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1421,19 +1152,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.07_이웃집소녀떡볶이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/277_hong_count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="168">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -1446,14 +1167,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/275_konlpy-basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="126">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/282_hong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="378">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#27#40#0" expanded="true" />
@@ -1463,14 +1184,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/284_hong_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="84">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/297_bayes_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="210">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
@@ -1486,15 +1207,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/lev-distance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
+        <state relative-caret-position="714">
           <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04.AI/3. Text_Mining/ngram-test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="525">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.01XML처리연습.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.06_naver_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.04.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheogajip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.07_eso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.07_ebiga.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.07_이웃집소녀떡볶이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Data_Science/1_Collection/HTML_XML/07.05_cheohajip_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

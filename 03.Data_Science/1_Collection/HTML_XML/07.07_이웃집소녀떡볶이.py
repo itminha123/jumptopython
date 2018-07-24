@@ -69,7 +69,7 @@ for i in result:
 # print(b.count("대구"))
 
 total = (len(gyeong_gi)+len(gyeong_buk)+len(seoul)+len(busan)+len(chung_buk)+len(jeon_buk)+len(ulsan)+len(deagu))
-print("웹 스콜링을 시작합니다.")
+print("웹 크롤링을 시작합니다.")
 print("지역"+"\t\t"+"|"+"\t"+"지점명"+"\t\t\t\t"+"|"+"\t"+"주소")
 print('-'*100)
 i=0

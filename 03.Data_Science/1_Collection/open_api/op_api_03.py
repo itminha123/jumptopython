@@ -7,7 +7,7 @@ import threading
 # HK Comment]
 # 장비를 변경한 경우 장비 상태를 출력할것
 # 장비에 맞는 상태 메세지로 변경 할 것
-# 시뮬레이션 모드 일 경우에는 별도의 파일을 생성하여 Overwite할 것
+# 시뮬레이션 모드 일 경우에는 별도의 파일을 생성하여 Overwrite할 것
 g_AI_speaker = False
 g_Radiator = False
 g_Gas_Valve = False

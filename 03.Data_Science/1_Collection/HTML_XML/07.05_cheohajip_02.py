@@ -34,7 +34,28 @@ for j in range(len(store_name)):
 print(result)
 print("전국 처갓집 치킨 매장수:", len(result))
 
-cheogajip_table = DataFrame(result, columns=('store_location', 'store_name', 'store_address', 'phone_number'))
-cheogajip_table.to_csv("cheogajip.csv", encoding="cp949", mode='w', index= True)
+# cheogajip_table = DataFrame(result, columns=('store_location', 'store_name', 'store_address', 'phone_number'))
+# cheogajip_table.to_csv("cheogajip.csv", encoding="cp949", mode='w', index= True)
 
 print("end")
+
+area_count =[]
+
+area = ["서울특별시", "경기도", "인천광역시", "강원도", "충청북도", "충청남도", "대전광역시", "세종특별자치시",
+        "광주광역시", "전라북도", "전라남도", "경상북도", "경상남도", "대구광역시", "부산광역시", "울산광역시",
+        "제주특별자치도"]
+
+cnt = 0;
+count = 0;
+for i in area:
+    for j in result:
+        if i in j:
+            cnt += 1
+            count += 1
+    area_cnt = [i, cnt]
+    area_count.append(area_cnt)
+    cnt = 0
+
+print(area_count)
+# for i in area_count:
+#     print(i[0],"매장수: %d" %i[1])

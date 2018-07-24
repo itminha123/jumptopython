@@ -58,8 +58,8 @@ for i in range(len(name)):
     result.append([str(i+1)]+name[i]+taste_up_down[i])
 
 print(result)
-# movie_table = DataFrame(result,columns=('순위','영화명','변동폭'))
-# movie_table.to_csv('movie.csv', encoding="cp949",mode='w',index=False)
+movie_table = DataFrame(result,columns=('순위','영화명','변동폭'))
+movie_table.to_csv('movie.csv', encoding="cp949",mode='w',index=False)
 #
 
 # 과제

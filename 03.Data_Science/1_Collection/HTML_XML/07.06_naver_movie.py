@@ -1,47 +1,50 @@
 import urllib.request
-
-from  bs4 import  BeautifulSoup
+from bs4 import BeautifulSoup
 from pandas import DataFrame
 
 html = urllib.request.urlopen('http://movie.naver.com/movie/sdb/rank/rmovie.nhn')
 soup = BeautifulSoup(html,'html.parser')
 
-# print(soup)
-# print(soup.prettify())
+tags =  soup.findAll('div', attrs={'class':'tit3'})
+changes =  soup.findAll('td', attrs={'class':'range ac'})
+store_all = soup.find_all('img')
 
-tags = soup.find_all('div',attrs={"class":"tit3"},)
-change = soup.find_all('td',attrs={"class":"range ac"})
-# up_down= soup.find_all('td',attrs=)
-# print(up_down)
-# print(tags)
-# print(change)
+taste_all = []
+for i in store_all[8:108]:
+    i = str(i)
+    print(i.split()[1].split("=")[1])
+    taste_all.append(i.split()[1].split("=")[1])
+
+taste = []
+for i in taste_all:
+    if i[1:-1] == 'na' :
+        taste.append("")
+    elif i[1:-1] == 'up' :
+        taste.append("+")
+    elif i[1:-1] == 'down':
+        taste.append('-')
+
+name = []
+for tag in tags:
+    tag = list(tag.strings)
+    movie_name = tag[1]
+    name.append([movie_name])
+
+up_down = []
+for change in changes:
+    change = list(change.strings)
+    movie_change = change[0]
+    up_down.append(movie_change)
+
+taste_up_down = []
+for i in range(len(taste)):
+    taste_up_down.append([taste[i] + up_down[i]])
 
 result = []
-for tag in tags:
-    tr_tag = list(tag.strings)
-    movie_name=tr_tag[1]
-    result.append([movie_name])
+for i in range(len(name)):
+    result.append([str(i+1)]+name[i]+taste_up_down[i])
+
 print(result)
-#
-number = []
-for movie_number in change:
-    movie_number = list(movie_number)
-    movie_change = movie_number[0]
-    number.append([movie_change])
-print(number)
-
-movie_list = []
-for i in range(len(result)):
-    movie_list.append([i+1]+result[i]+number[i])
-
-print(movie_list)
-
-# movie_table = DataFrame(movie_list, columns=('순위','영화명','변동폭'))
-# movie_table.to_csv("movie1.csv",encoding='cp949',mode='w',index=False)
-
-
-
-
-
-
+# movie_table = DataFrame(result,columns=('순위','영화명','변동폭'))
+# movie_table.to_csv('movie.csv', encoding="cp949",mode='w',index=False)
 
